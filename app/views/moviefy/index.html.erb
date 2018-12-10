@@ -1,0 +1,12 @@
+<div class="title">
+    <h1>Moviefy</h1>
+</div>
+
+<div style="width:100%; text-align:center;">
+  <% Dir.glob('app/assets/images/thumbnail/*').map do |item| %>
+    <button class="thumbnail" style= 'width:5px 10px'>
+      <%= image_tag "thumbnail/#{File.basename(item)}" %><br>
+      <strong><%= File.basename(item) %></strong>
+    </button>
+  <% end %>
+</div>

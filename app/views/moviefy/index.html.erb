@@ -5,7 +5,7 @@
 <div style="width:100%; text-align:center;">
   <% Dir.glob('app/assets/images/thumbnail/*').map do |item| %>
     <button class="thumbnail" style= 'width:5px 10px'>
-      <%= image_tag "thumbnail/#{File.basename(item)}" %><br>
+      <span><%= image_tag "thumbnail/#{File.basename(item)}" %></span><br>
       <strong><%= File.basename(item) %></strong>
     </button>
   <% end %>

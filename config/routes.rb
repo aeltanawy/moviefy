@@ -1,6 +1,11 @@
 Rails.application.routes.draw do
+  # Databases
   resources :crews
   resources :movies
+
+  # Route for movie info after thumbnail button click
+  get '/movies/:id', to: 'movies#show_movie', as: 'show_movie'
+
+  # Homepage route
   root 'moviefy#index'
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

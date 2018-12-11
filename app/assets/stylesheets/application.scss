@@ -18,6 +18,7 @@
    margin-left: 20px;
    margin-right: 20px;
    margin-top: 60px;
+   margin-bottom: 40px;
    width: auto;
  }
 
@@ -42,8 +43,8 @@
      margin-left: 4px;
      margin-right: 4px;
      margin-top: 10px;
-     padding: 4px;
      text-decoration: none;
+     font-size: 10pt;
      text-align: center;
      width: 200px;
      float: auto;
@@ -63,6 +64,7 @@
     top: 0;
     right: -20px;
     transition: 0.5s;
+    font-size: 13pt;
   }
 
   .thumbnail:hover span {

@@ -4,9 +4,10 @@
 
 <div style="width:100%; text-align:center;">
   <% Dir.glob('app/assets/images/thumbnail/*').map do |item| %>
-    <button class="thumbnail" style= 'width:5px 10px'>
-      <span><%= image_tag "thumbnail/#{File.basename(item)}" %></span><br>
-      <strong><%= File.basename(item) %></strong>
+    <% movie_name = File.basename(item) %>
+    <button class="thumbnail">
+      <span><%= image_tag "thumbnail/#{movie_name}" %></span><br>
+      <strong><%= construct_movie_name(movie_name[0...-4]) %></strong>
     </button>
   <% end %>
 </div>

@@ -1,0 +1,107 @@
+<%= form_with(model: movie, local: true) do |form| %>
+  <% if movie.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(movie.errors.count, "error") %> prohibited this movie from being saved:</h2>
+
+      <ul>
+      <% movie.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :movie_title %>
+    <%= form.text_field :movie_title %>
+  </div>
+
+  <div class="field">
+    <%= form.label :num_critic_for_reviews %>
+    <%= form.number_field :num_critic_for_reviews %>
+  </div>
+
+  <div class="field">
+    <%= form.label :duration %>
+    <%= form.number_field :duration %>
+  </div>
+
+  <div class="field">
+    <%= form.label :gross %>
+    <%= form.number_field :gross %>
+  </div>
+
+  <div class="field">
+    <%= form.label :genres %>
+    <%= form.text_field :genres %>
+  </div>
+
+  <div class="field">
+    <%= form.label :movie_imdb_link %>
+    <%= form.text_field :movie_imdb_link %>
+  </div>
+
+  <div class="field">
+    <%= form.label :num_voted_users %>
+    <%= form.number_field :num_voted_users %>
+  </div>
+
+  <div class="field">
+    <%= form.label :facenumber_in_poster %>
+    <%= form.number_field :facenumber_in_poster %>
+  </div>
+
+  <div class="field">
+    <%= form.label :plot_keywords %>
+    <%= form.text_field :plot_keywords %>
+  </div>
+
+  <div class="field">
+    <%= form.label :num_user_for_reviews %>
+    <%= form.number_field :num_user_for_reviews %>
+  </div>
+
+  <div class="field">
+    <%= form.label :language %>
+    <%= form.text_field :language %>
+  </div>
+
+  <div class="field">
+    <%= form.label :country %>
+    <%= form.text_field :country %>
+  </div>
+
+  <div class="field">
+    <%= form.label :content_rating %>
+    <%= form.text_field :content_rating %>
+  </div>
+
+  <div class="field">
+    <%= form.label :budget %>
+    <%= form.number_field :budget %>
+  </div>
+
+  <div class="field">
+    <%= form.label :title_year %>
+    <%= form.number_field :title_year %>
+  </div>
+
+  <div class="field">
+    <%= form.label :imdb_score %>
+    <%= form.text_field :imdb_score %>
+  </div>
+
+  <div class="field">
+    <%= form.label :aspect_ratio %>
+    <%= form.text_field :aspect_ratio %>
+  </div>
+
+  <div class="field">
+    <%= form.label :movie_fb_likes %>
+    <%= form.number_field :movie_fb_likes %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Director name:</strong>
+  <%= @crew.director_name %>
+</p>
+
+<p>
+  <strong>Director facebook likes:</strong>
+  <%= @crew.director_facebook_likes %>
+</p>
+
+<p>
+  <strong>Actor 1 name:</strong>
+  <%= @crew.actor_1_name %>
+</p>
+
+<p>
+  <strong>Actor 1 facebook likes:</strong>
+  <%= @crew.actor_1_facebook_likes %>
+</p>
+
+<p>
+  <strong>Actor 2 name:</strong>
+  <%= @crew.actor_2_name %>
+</p>
+
+<p>
+  <strong>Actor 2 facebook likes:</strong>
+  <%= @crew.actor_2_facebook_likes %>
+</p>
+
+<p>
+  <strong>Actor 3 name:</strong>
+  <%= @crew.actor_3_name %>
+</p>
+
+<p>
+  <strong>Actor 3 facebook likes:</strong>
+  <%= @crew.actor_3_facebook_likes %>
+</p>
+
+<p>
+  <strong>Cast total facebook likes:</strong>
+  <%= @crew.cast_total_facebook_likes %>
+</p>
+
+<p>
+  <strong>Movie:</strong>
+  <%= @crew.movie %>
+</p>
+
+<%= link_to 'Edit', edit_crew_path(@crew) %> |
+<%= link_to 'Back', crews_path %>

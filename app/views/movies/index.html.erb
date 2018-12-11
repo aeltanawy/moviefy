@@ -1,0 +1,61 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Movies</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Movie title</th>
+      <th>Num critic for reviews</th>
+      <th>Duration</th>
+      <th>Gross</th>
+      <th>Genres</th>
+      <th>Movie imdb link</th>
+      <th>Num voted users</th>
+      <th>Facenumber in poster</th>
+      <th>Plot keywords</th>
+      <th>Num user for reviews</th>
+      <th>Language</th>
+      <th>Country</th>
+      <th>Content rating</th>
+      <th>Budget</th>
+      <th>Title year</th>
+      <th>Imdb score</th>
+      <th>Aspect ratio</th>
+      <th>Movie fb likes</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @movies.each do |movie| %>
+      <tr>
+        <td><%= movie.movie_title %></td>
+        <td><%= movie.num_critic_for_reviews %></td>
+        <td><%= movie.duration %></td>
+        <td><%= movie.gross %></td>
+        <td><%= movie.genres %></td>
+        <td><%= movie.movie_imdb_link %></td>
+        <td><%= movie.num_voted_users %></td>
+        <td><%= movie.facenumber_in_poster %></td>
+        <td><%= movie.plot_keywords %></td>
+        <td><%= movie.num_user_for_reviews %></td>
+        <td><%= movie.language %></td>
+        <td><%= movie.country %></td>
+        <td><%= movie.content_rating %></td>
+        <td><%= movie.budget %></td>
+        <td><%= movie.title_year %></td>
+        <td><%= movie.imdb_score %></td>
+        <td><%= movie.aspect_ratio %></td>
+        <td><%= movie.movie_fb_likes %></td>
+        <td><%= link_to 'Show', movie %></td>
+        <td><%= link_to 'Edit', edit_movie_path(movie) %></td>
+        <td><%= link_to 'Destroy', movie, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Movie', new_movie_path %>

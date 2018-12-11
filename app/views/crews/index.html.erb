@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Crews</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Director name</th>
+      <th>Director facebook likes</th>
+      <th>Actor 1 name</th>
+      <th>Actor 1 facebook likes</th>
+      <th>Actor 2 name</th>
+      <th>Actor 2 facebook likes</th>
+      <th>Actor 3 name</th>
+      <th>Actor 3 facebook likes</th>
+      <th>Cast total facebook likes</th>
+      <th>Movie</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @crews.each do |crew| %>
+      <tr>
+        <td><%= crew.director_name %></td>
+        <td><%= crew.director_facebook_likes %></td>
+        <td><%= crew.actor_1_name %></td>
+        <td><%= crew.actor_1_facebook_likes %></td>
+        <td><%= crew.actor_2_name %></td>
+        <td><%= crew.actor_2_facebook_likes %></td>
+        <td><%= crew.actor_3_name %></td>
+        <td><%= crew.actor_3_facebook_likes %></td>
+        <td><%= crew.cast_total_facebook_likes %></td>
+        <td><%= crew.movie %></td>
+        <td><%= link_to 'Show', crew %></td>
+        <td><%= link_to 'Edit', edit_crew_path(crew) %></td>
+        <td><%= link_to 'Destroy', crew, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Crew', new_crew_path %>

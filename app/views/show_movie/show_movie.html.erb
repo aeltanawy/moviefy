@@ -1,12 +1,24 @@
 <div>
+
+  <!-- movie title -->
   <div class='container'>
     <h1><%= @movie_title %></h1>
   </div>
+
+  <!-- Movie poster image -->
   <div class='container'>
     <div class='left-image'>
       <% movie_name = construct_file_name(@movie_title) %>
       <span><%= image_tag "thumbnail/#{movie_name}.png" %></span>
+
+      <!-- button to purchase movie ticket -->
+      <form class='purchase' action="purchase/:id" method="get">
+        <input type='hidden' name='movie_id' value='<%= @movie.id %>'>
+        <button class='purchase' type='submit'>Purchase Movie Ticked</button>
+      </form>
     </div>
+
+    <!-- Movie information -->
     <div class='right-info'>
       <p>
         <strong>Title year:</strong>

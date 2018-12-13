@@ -114,3 +114,19 @@
   .container {
     width: 100%;
   }
+
+ form.purchase {
+    margin-top: 20px;
+  }
+
+ button.purchase {
+    border-radius: 6px;
+    padding: 7px;
+    background-color: rgb(194, 192, 196);
+ }
+
+ button.purchase:hover {
+   cursor: pointer;
+   background-color: rgb(6, 53, 105);
+   color: white;
+ }

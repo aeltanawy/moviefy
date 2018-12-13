@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_12_13_041818) do
+ActiveRecord::Schema.define(version: 2018_12_13_112307) do
 
   create_table "crews", force: :cascade do |t|
     t.string "director_name"
@@ -54,6 +54,8 @@ ActiveRecord::Schema.define(version: 2018_12_13_041818) do
   create_table "theaters", force: :cascade do |t|
     t.string "state"
     t.string "city"
+    t.float "latitude"
+    t.float "longitude"
     t.string "theater_name"
     t.string "zipcode"
     t.datetime "created_at", null: false

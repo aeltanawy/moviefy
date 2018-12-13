@@ -5,6 +5,8 @@ RSpec.describe "theaters/new", type: :view do
     assign(:theater, Theater.new(
       :state => "MyString",
       :city => "MyString",
+      :latitude => 1.5,
+      :longitude => 1.5,
       :theater_name => "MyString",
       :zipcode => "MyString"
     ))
@@ -18,6 +20,10 @@ RSpec.describe "theaters/new", type: :view do
       assert_select "input[name=?]", "theater[state]"
 
       assert_select "input[name=?]", "theater[city]"
+
+      assert_select "input[name=?]", "theater[latitude]"
+
+      assert_select "input[name=?]", "theater[longitude]"
 
       assert_select "input[name=?]", "theater[theater_name]"
 

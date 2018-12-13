@@ -12,6 +12,8 @@ namespace :theaters do
     Theater.create!(
       state: row['state'].to_s,
       city: row['city'].to_s,
+      latitude: row['latitude'].to_f,
+      longitude: row['longitude'].to_f,
       theater_name: row['theater_name'].to_s,
       zipcode: row['zipcode'].to_s,
       )

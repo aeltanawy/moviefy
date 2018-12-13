@@ -1,159 +1,159 @@
-state,city,theater_name,zipcode
-AK,Anchorage,Century 16 and XD,99503
-AL,Huntsville,Cinemark Bridge Street and XD,35806
-AR,Benton,Cinemark Tinseltown USA,72015
-AR,Conway,Cinemark Towne Centre and XD ,72032
-AR,Little Rock,Cinemark Colonel Glenn 18 and XD,72210
-AZ,Mesa,Cinemark Mesa 16,85201
-AZ,Oro Valley,Century Theatres At The Oro Valley Marketplace,85737
-AZ,Sierra Vista,Cinemark 10,85635
-AZ,Tucson,Century 20 El Con and XD,85716
-AZ,Tucson,Century Park Place 20 and XD,85711
-AZ,Tucson,Century Gateway 12,85710
-AZ,Tucson,Century Tucson Marketplace and XD,85713
-CA,Apple Valley ,Cinemark Jess Ranch,92308
-CA,Carson,Cinemark Carson & XD,90746
-CA,Chico,Cinemark Chico 14 and XD,95926
-CA,Chino,Cinemark Movies 8,91710
-CA,Corte Madera,Century Cinema,94925
-CA,Daly City,Century 20 Daly City and XD,94015
-CA,Danville,Century Blackhawk Plaza,94506
-CA,Downey,Cinemark Downey and XD,90242
-CA,El Centro,Cinemark Imperial Valley Mall 14,92243
-CA,Elk Grove ,Century Laguna 16 and XD,95758
-CA,Folsom,Century Folsom 14,95630
-CA,Fremont ,Century at Pacific Commons and XD,94538
-CA,Hanford ,Cinemark Movies 8,93230
-CA,Hayward,Century at Hayward,94541
-CA,Huntington Beach,Century Huntington Beach and XD,92647
-CA,La Quinta,Century La Quinta and XD,92253
-CA,Lancaster,Cinemark Movies 12,93534
-CA,Lancaster,Cinemark 22 and IMAX,93536
-CA,Larkspur,Century Larkspur,94939
-CA,Long Beach,Cinemark At The Pike Outlets and XD,90802
-CA,Los Angeles,Baldwin Hills Crenshaw Plaza 15 and XD,90008
-CA,Los Angeles ,Cinemark 18 & XD,90045
-CA,Marina,Century Marina and XD,93933
-CA,Mill Valley,CinéArts Sequoia,94941
-CA,Milpitas,Century 20 Great Mall and XD,95035
-CA,Monterey,Monterey 13,93940
-CA,Mountain View,Century Cinema 16,94043
-CA,Napa,Century Napa Valley and XD,94559
-CA,North Hollywood,Cinemark North Hollywood,91606
-CA,Novato,Century Rowland Plaza,94945
-CA,Orange ,Century Stadium 25 and XD,92867
-CA,Oxnard,Century RiverPark 16 and XD,93036
-CA,Palmdale,Cinemark Antelope Valley Mall,93551
-CA,Palo Alto,CinéArts at Palo Alto Square,94306
-CA,Playa Vista,Cinemark Playa Vista and XD,90094
-CA,Pleasant Hill ,Century 16 Downtown Pleasant Hill and XD,94523
-CA,Rancho Mirage,Century @ The River and XD,92270
-CA,Redding,Cinemark Movies 8,96001
-CA,Redding,Cinemark Redding 14 and XD,96003
-CA,Redwood City,Redwood Downtown 20 and XD,94063
-CA,Rialto,Cinemark Renaissance Marketplace and XD,92376
-CA,Richmond,Century Hilltop 16,94806
-CA,Rocklin ,Blue Oaks Century Theatres and XD,95765
-CA,Roseville,Century Roseville 14 and XD,95661
-CA,Sacramento ,Century DOCO and XD,95814
-CA,Sacramento ,Century 16 Greenback Lane and XD,95841
-CA,Sacramento ,Century Arden 14 and XD,95825
-CA,Salinas,Century 14 Northridge Mall,93906
-CA,San Bruno,Century at Tanforan and XD,94066
-CA,San Francisco,CinéArts at the Empire ,94127
-CA,San Francisco,Century San Francisco Centre 9 and XD,94103
-CA,San Jose,CineArts Santana Row,95128
-CA,San Jose,Century 20 Oakridge and XD,95123
-CA,San Leandro,Century 16 Bayfair Mall,94578
-CA,San Mateo,Century 12 San Mateo,94010
-CA,San Rafael,Century Northgate ,94903
-CA,San Rafael,Century Regency,94903
-CA,Tracy,Cinemark Movies 14,95376
-CA,Union City,Century 25 Union Landing and XD,94587
-CA,Vallejo,Century 14 Vallejo,94591
-CA,Ventura,Century 10 Downtown,93001
-CA,Victorville,Cinemark Movies 10,92392
-CA,Victorville,Cinemark 16 Victorville and XD,92392
-CA,Walnut Creek,Walnut Creek 14 and XD,94596
-CA,Woodland,Cinemark Movies 5,95776
-CA,Yuba City,Cinemark Yuba City,95993
-CO,Aurora,Century Aurora and XD ,80012
-CO,Boulder,Century Boulder,80301
-CO,Colorado Springs,Cinemark Tinseltown USA and XD,80906
-CO,Colorado Springs,Cinemark Carefree Circle and IMAX ,80922
-CO,Fort Collins,Cinemark Fort Collins,80525
-CO,Fort Collins,Cinemark Movie Bistro and XD,80525
-CO,Greeley,Cinemark Greeley Mall,80631
-CO,Lakewood,Century 16 Bel Mar and XD,80226
-CO,Pueblo,Cinemark Tinseltown,81008
-CT,Enfield,Enfield 12,06082
-CT,Manchester,Cinemark Buckland Hills 18 + IMAX,06045
-CT,Milford,Cinemark Connecticut Post 14 + IMAX,06460
-CT,North Haven,Cinemark North Haven and XD,06473
-DE,Newar,Cinemark Christiana and XD,19702
-DE,Wilmington,Cinemark Movies 10,19804
-FL,Boca Raton,Cinemark Palace 20 and XD,33431
-FL,Boynton Beach,Cinemark Boynton Beach 14 and XD,33426
-FL,Davie,Cinemark Paradise 24 and XD,33331
-FL,Jacksonville,Cinemark Tinseltown and XD,32216
-FL,Lakeland,Cinemark Lakeland Square Mall and XD,33809
-FL,Orlando,Cinemark Orlando and XD,32819
-FL,Orlando,Universal Cinemark at CityWalk,32819
-GA,Fayetteville,Cinemark Movies 10,30214
-GA,Fayetteville,Cinemark Tinseltown 17 and XD,30214
-IA,Altoona,Cinemark Altoona and XD,50009
-IA,Ames,Cinemark Movies 12,50010
-IA,Davenport,Davenport 53rd 18 + IMAX,52807
-IA,West Des Moines,Century 20 Jordan Creek and XD,50266
-IL,Bloomingdale,Century Stratford Square,60108
-IL,Bourbonnais,Cinemark Movies 10,60914
-IL,Deer Park,Century 16 Deer Park,60010
-IL,Evanston,Century 12 Evanston/CineArts 6 and XD,60201
-IL,Joliet,Cinemark Louis Joliet Mall ,60431
-IL,Melrose Park,Cinemark Melrose Park,60160
-IL,North Aurora,Cinemark Tinseltown USA ,60542
-IL,West Dundee,Cinemark Spring Hill Mall and XD,60118
-IL,Woodridge,Cinemark @ Seven Bridges and IMAX,60517
-IN,Indianapolis,Cinemark Movies 8,46227
-IN,Mishawaka,Cinemark Movies 14,46545
-IN,Valparaiso,Cinemark at Valparaiso,46383
-KS,Merriam,Cinemark 20 and XD,66202
-KY,Ashland,Cinemark Movies 10,41101
-KY,Florence,Florence 14,41042
-KY,Lexington,Cinemark Fayette Mall and XD,40503
-KY,Louisville,Cinemark Tinseltown USA and XD ,40241
-KY,Louisville,Cinemark Mall St. Matthews and XD,40207
-KY,Okolona,Preston Crossings 16,40229
-KY,Paducah,Cinemark Paducah,42001
-KY,Richmond,Cinemark At Richmond Centre,40475
-LA,Baton Rouge,Cinemark Perkins Rowe and XD,70810
-LA,Lake Charles,Cinemark Lake Charles and XD ,70601
-LA,Lake Charles,Cinemark Movie Bistro Lake Charles,70607
-LA,Monroe,Cinemark Cinema 10,71203
-LA,Shreveport,Cinemark Tinseltown and XD,71105
-LA,West Monroe,Cinemark Tinseltown 17,71291
-MA,Hadley,Cinemark At Hampshire Mall and XD,01035
-MA,Springfield,Eastfield 16,01129
-MA,West Springfield,West Springfield 15 and XD,01089
-MD,Hanover,Cinemark Egyptian 24 and XD,21076
-MD,Towson,Cinemark Towson and XD,21286
-MI,Flint,Flint West 14,48532
-MI,Taylor,Cinemark Southland Center and XD,48180
-MI,Ypsilanti,Ann Arbor 20 + IMAX,48197
-MN,Mankato,Cinemark River Hills Movies 8,56001
-MO,Kansas City,Cinemark Palace at The Plaza,64112
-MS,Gulfport,Cinemark 16,39503
-MS,Tupelo,Cinemark Movies 8,38804
-MT,Helena,Cinemark Helena and XD,59601
-MT,Kalispell,Signature Stadium 14,59901
-NC,Asheboro,Cinemark Asheboro,27203
-NC,Asheville,The Carolina Cinemark Asheville,28803
-NC,Charlotte,Cinemark Movie Bistro Charlotte,28270
-NC,Greensboro,Cinemark Brassfield Cinema Ten,27410
-NC,Matthews,Cinemark Movies 10,28105
-NC,Raleigh,Cinemark Raleigh Grande,27613
-NC,Salisbury,Cinemark Tinseltown USA ,28146
-NJ,Hazlet,Cinemark Hazlet 12,07730
-NJ,Somerdale,Cinemark 16 and XD,08083
-NM,Albuquerque,Cinemark Movies 8,87109
-NM,Albuquerque,Cinemark Movies West,87114
+state,city,latitude,longitude,theater_name,zipcode
+AK,Anchorage,61.1911,-149.8902,Century 16 and XD,99503
+AL,Huntsville,34.7304,-86.5861,Cinemark Bridge Street and XD,35806
+AR,Benton,34.4919,-92.609,Cinemark Tinseltown USA,72015
+AR,Conway,35.0887,-92.4421,Cinemark Towne Centre and XD ,72032
+AR,Little Rock,34.7152,-92.5099,Cinemark Colonel Glenn 18 and XD,72210
+AZ,Mesa,33.4330,-111.8449,Cinemark Mesa 16,85201
+AZ,Oro Valley,32.4044,-110.9864,Century Theatres At The Oro Valley Marketplace,85737
+AZ,Sierra Vista,31.5889,-110.2117,Cinemark 10,85635
+AZ,Tucson,32.2479,-110.9209,Century 20 El Con and XD,85716
+AZ,Tucson,32.2107,-110.8851,Century Park Place 20 and XD,85711
+AZ,Tucson,32.2166,-110.8195,Century Gateway 12,85710
+AZ,Tucson,32.1922,110.9924,Century Tucson Marketplace and XD,85713
+CA,Apple Valley ,34.3965,-117.1500,Cinemark Jess Ranch,92308
+CA,Carson,33.8540,-118.2585,Cinemark Carson & XD,90746
+CA,Chico,39.7285,-121.8375,Cinemark Chico 14 and XD,95926
+CA,Chino,34.0120,-117.6787,Cinemark Movies 8,91710
+CA,Corte Madera,37.9206,-122.5090,Century Cinema,94925
+CA,Daly City,37.6800,-122.4863,Century 20 Daly City and XD,94015
+CA,Danville,37.8213,-121.9132,Century Blackhawk Plaza,94506
+CA,Downey,33.9167,-118.1298,Cinemark Downey and XD,90242
+CA,El Centro,32.7539,-115.5918,Cinemark Imperial Valley Mall 14,92243
+CA,Elk Grove ,38.4088,-121.3716,Century Laguna 16 and XD,95758
+CA,Folsom,38.6686,-121.1481,Century Folsom 14,95630
+CA,Fremont ,37.5483,-121.9886,Century at Pacific Commons and XD,94538
+CA,Hanford ,36.3275,-119.6457,Cinemark Movies 8,93230
+CA,Hayward,37.6737,-122.1008,Century at Hayward,94541
+CA,Huntington Beach,33.7223,-118.0010,Century Huntington Beach and XD,92647
+CA,La Quinta,33.6563,-116.2895,Century La Quinta and XD,92253
+CA,Lancaster,34.6946,-118.1474,Cinemark Movies 12,93534
+CA,Lancaster,34.7191,-118.2527,Cinemark 22 and IMAX,93536
+CA,Larkspur,37.9388,-122.5344,Century Larkspur,94939
+CA,Long Beach,33.7415,-118.1942,Cinemark At The Pike Outlets and XD,90802
+CA,Los Angeles,34.0522,-118.2437,Baldwin Hills Crenshaw Plaza 15 and XD,90008
+CA,Los Angeles ,34.0522,-118.2437,Cinemark 18 & XD,90045
+CA,Marina,36.6802,-121.7822,Century Marina and XD,93933
+CA,Mill Valley,37.9061,-122.5712,CinéArts Sequoia,94941
+CA,Milpitas,33.4688,-112.1967,Century 20 Great Mall and XD,95035
+CA,Monterey,36.5760,-121.8221,Monterey 13,93940
+CA,Mountain View,37.3861,-122.0839,Century Cinema 16,94043
+CA,Napa,38.2296,-122.3221,Century Napa Valley and XD,94559
+CA,North Hollywood,34.1874,-118.3900,Cinemark North Hollywood,91606
+CA,Novato,38.1218,-122.5486,Century Rowland Plaza,94945
+CA,Orange ,33.8186,-117.8282,Century Stadium 25 and XD,92867
+CA,Oxnard,34.2329,-119.1798,Century RiverPark 16 and XD,93036
+CA,Palmdale,34.5942,-118.1825,Cinemark Antelope Valley Mall,93551
+CA,Palo Alto,37.4419,-122.1430,CinéArts at Palo Alto Square,94306
+CA,Playa Vista,33.9745,-118.4178,Cinemark Playa Vista and XD,90094
+CA,Pleasant Hill ,37.9449,-122.0724,Century 16 Downtown Pleasant Hill and XD,94523
+CA,Rancho Mirage,33.7694,-116.4312,Century @ The River and XD,92270
+CA,Redding,40.5865,-122.3917,Cinemark Movies 8,96001
+CA,Redding,40.5865,-122.3917,Cinemark Redding 14 and XD,96003
+CA,Redwood City,37.4852,-122.2364,Redwood Downtown 20 and XD,94063
+CA,Rialto,34.1064,-117.3703,Cinemark Renaissance Marketplace and XD,92376
+CA,Richmond,37.9759,-122.3448,Century Hilltop 16,94806
+CA,Rocklin ,38.8114,-121.2741,Blue Oaks Century Theatres and XD,95765
+CA,Roseville,38.7521,-121.2880,Century Roseville 14 and XD,95661
+CA,Sacramento ,38.5825,-121.4942,Century DOCO and XD,95814
+CA,Sacramento ,38.6615,-121.3484,Century 16 Greenback Lane and XD,95841
+CA,Sacramento ,38.5891,-121.4085,Century Arden 14 and XD,95825
+CA,Salinas,36.7272,-121.6397,Century 14 Northridge Mall,93906
+CA,San Bruno,37.6211,-122.4297,Century at Tanforan and XD,94066
+CA,San Francisco,37.7346,-122.4637,CinéArts at the Empire ,94127
+CA,San Francisco,37.7726,-122.4099,Century San Francisco Centre 9 and XD,94103
+CA,San Jose,37.3382,-121.8863,CineArts Santana Row,95128
+CA,San Jose,37.3382,-121.8863,Century 20 Oakridge and XD,95123
+CA,San Leandro,37.7249,-122.1561,Century 16 Bayfair Mall,94578
+CA,San Mateo,37.5685,-122.3674,Century 12 San Mateo,94010
+CA,San Rafael,38.0270,-122.5486,Century Northgate ,94903
+CA,San Rafael,38.0270,-122.5486,Century Regency,94903
+CA,Tracy,37.7397,-121.4252,Cinemark Movies 14,95376
+CA,Union City,37.5952,-122.0440,Century 25 Union Landing and XD,94587
+CA,Vallejo,38.1256,-122.1973,Century 14 Vallejo,94591
+CA,Ventura,34.2769,-119.2769,Century 10 Downtown,93001
+CA,Victorville,34.4854,-117.4204,Cinemark Movies 10,92392
+CA,Victorville,34.4854,-117.4204,Cinemark 16 Victorville and XD,92392
+CA,Walnut Creek,37.9101,-122.0652,Walnut Creek 14 and XD,94596
+CA,Woodland,38.6945,-121.6967,Cinemark Movies 5,95776
+CA,Yuba City,39.0715,-121.6967,Cinemark Yuba City,95993
+CO,Aurora,39.7020,-104.8396,Century Aurora and XD ,80012
+CO,Boulder,40.0407,-105.2078,Century Boulder,80301
+CO,Colorado Springs,38.8339,-104.8214,Cinemark Tinseltown USA and XD,80906
+CO,Colorado Springs,38.8339,-104.8214,Cinemark Carefree Circle and IMAX ,80922
+CO,Fort Collins,40.5853,-105.0844,Cinemark Fort Collins,80525
+CO,Fort Collins,40.5853,-105.0844,Cinemark Movie Bistro and XD,80525
+CO,Greeley,40.4398,-104.6821,Cinemark Greeley Mall,80631
+CO,Lakewood,39.7101,-105.0850,Century 16 Bel Mar and XD,80226
+CO,Pueblo,38.5003,-104.6355,Cinemark Tinseltown,81008
+CT,Enfield,42.0027,-72.5441,Enfield 12,06082
+CT,Manchester,41.7800,-72.5200,Cinemark Buckland Hills 18 + IMAX,06045
+CT,Milford,41.2221,-73.0464,Cinemark Connecticut Post 14 + IMAX,06460
+CT,North Haven,41.3844,-72.8634,Cinemark North Haven and XD,06473
+DE,Newar,39.6204,-75.7488,Cinemark Christiana and XD,19702
+DE,Wilmington,39.7199,-75.6150,Cinemark Movies 10,19804
+FL,Boca Raton,26.3683,-80.1289,Cinemark Palace 20 and XD,33431
+FL,Boynton Beach,26.5387,-80.0814,Cinemark Boynton Beach 14 and XD,33426
+FL,Davie,26.0621,-80.3770,Cinemark Paradise 24 and XD,33331
+FL,Jacksonville,30.2907,-81.5706,Cinemark Tinseltown and XD,32216
+FL,Lakeland,28.2274,-81.9753,Cinemark Lakeland Square Mall and XD,33809
+FL,Orlando,28.4630,-81.4609,Cinemark Orlando and XD,32819
+FL,Orlando,28.4630,-81.4609,Universal Cinemark at CityWalk,32819
+GA,Fayetteville,33.4735,-84.5012,Cinemark Movies 10,30214
+GA,Fayetteville,33.4735,-84.5012,Cinemark Tinseltown 17 and XD,30214
+IA,Altoona,41.6393,-93.4498,Cinemark Altoona and XD,50009
+IA,Ames,42.0321,-93.5914,Cinemark Movies 12,50010
+IA,Davenport,41.6100,-90.5163,Davenport 53rd 18 + IMAX,52807
+IA,West Des Moines,41.5680,-93.8147,Century 20 Jordan Creek and XD,50266
+IL,Bloomingdale,41.9485,-88.0950,Century Stratford Square,60108
+IL,Bourbonnais,41.1908,-87.8648,Cinemark Movies 10,60914
+IL,Deer Park,42.1621,-88.1487,Century 16 Deer Park,60010
+IL,Evanston,42.0600,-87.6926,Century 12 Evanston/CineArts 6 and XD,60201
+IL,Joliet,41.5120,-88.1828,Cinemark Louis Joliet Mall ,60431
+IL,Melrose Park,41.9047,-87.8599,Cinemark Melrose Park,60160
+IL,North Aurora,41.8133,-88.3385,Cinemark Tinseltown USA ,60542
+IL,West Dundee,42.0955,-88.3142,Cinemark Spring Hill Mall and XD,60118
+IL,Woodridge,41.7489,-88.0363,Cinemark @ Seven Bridges and IMAX,60517
+IN,Indianapolis,39.6802,-86.1243,Cinemark Movies 8,46227
+IN,Mishawaka,41.6862,-86.1446,Cinemark Movies 14,46545
+IN,Valparaiso,41.4613,-86.9624,Cinemark at Valparaiso,46383
+KS,Merriam,39.0247,-94.6709,Cinemark 20 and XD,66202
+KY,Ashland,38.4804,-82.6537,Cinemark Movies 10,41101
+KY,Florence,38.9803,-84.6584,Florence 14,41042
+KY,Lexington,38.0103,-84.5327,Cinemark Fayette Mall and XD,40503
+KY,Louisville,38.2527,-85.7585,Cinemark Tinseltown USA and XD ,40241
+KY,Louisville,38.2527,-85.7585,Cinemark Mall St. Matthews and XD,40207
+KY,Okolona,38.2527,-85.7585,Preston Crossings 16,40229
+KY,Paducah,37.0543,-88.6916,Cinemark Paducah,42001
+KY,Richmond,37.7479,-84.2947,Cinemark At Richmond Centre,40475
+LA,Baton Rouge,30.4515,-91.1871,Cinemark Perkins Rowe and XD,70810
+LA,Lake Charles,30.2294,-93.2131,Cinemark Lake Charles and XD ,70601
+LA,Lake Charles,30.2266,-93.2174,Cinemark Movie Bistro Lake Charles,70607
+LA,Monroe,32.5662,-92.0273,Cinemark Cinema 10,71203
+LA,Shreveport,32.4546,-93.7080,Cinemark Tinseltown and XD,71105
+LA,West Monroe,32.5866,-82.1647,Cinemark Tinseltown 17,71291
+MA,Hadley,42.3592,-72.5560,Cinemark At Hampshire Mall and XD,01035
+MA,Springfield,42.1144,-72.4909,Eastfield 16,01129
+MA,West Springfield,42.1250,-72.6506,West Springfield 15 and XD,01089
+MD,Hanover,39.1677,-76.7221,Cinemark Egyptian 24 and XD,21076
+MD,Towson,39.4110,-76.5777,Cinemark Towson and XD,21286
+MI,Flint,43.0164,83.7943,Flint West 14,48532
+MI,Taylor,42.2164,-83.2720,Cinemark Southland Center and XD,48180
+MI,Ypsilanti,42.1966,-83.6136,Ann Arbor 20 + IMAX,48197
+MN,Mankato,44.1223,-93.9674,Cinemark River Hills Movies 8,56001
+MO,Kansas City,39.0379,-94.5986,Cinemark Palace at The Plaza,64112
+MS,Gulfport,30.3674,-89.0928,Cinemark 16,39503
+MS,Tupelo,34.2684,-88.6820,Cinemark Movies 8,38804
+MT,Helena,46.5571,-112.2285,Cinemark Helena and XD,59601
+MT,Kalispell,48.1866,-114.2704,Signature Stadium 14,59901
+NC,Asheboro,35.7313,-79.7961,Cinemark Asheboro,27203
+NC,Asheville,35.5671,-82.5438,The Carolina Cinemark Asheville,28803
+NC,Charlotte,35.2271,-80.8431,Cinemark Movie Bistro Charlotte,28270
+NC,Greensboro,36.0726,-79.7920,Cinemark Brassfield Cinema Ten,27410
+NC,Matthews,35.1106,-80.7104,Cinemark Movies 10,28105
+NC,Raleigh,35.9050,-78.7088,Cinemark Raleigh Grande,27613
+NC,Salisbury,35.6396,-80.3881,Cinemark Tinseltown USA ,28146
+NJ,Hazlet,40.4306,-74.1769,Cinemark Hazlet 12,07730
+NJ,Somerdale,39.8385,-75.0290,Cinemark 16 and XD,08083
+NM,Albuquerque,35.1590,-106.5761,Cinemark Movies 8,87109
+NM,Albuquerque,35.1959,-106.6940,Cinemark Movies West,87114

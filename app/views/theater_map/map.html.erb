@@ -25,10 +25,7 @@
 <div id="map" style="height: 400px; width: 500px;"></div>
 
 <script type="text/javascript">
-  var locations = [
-    ['Anchorage', 'AK', 61.1911, -149.8902, 'Century 16 and XD', '99503'],
-    ['Huntsville', 'AL', 34.7304, -86.5861, 'Cinemark Bridge Street and XD', '35806'],
-  ];
+  var locations = <%= raw @markers %>;
 
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 3.3,

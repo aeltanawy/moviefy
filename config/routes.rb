@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
+  resources :theaters
   # Databases
   resources :crews
   resources :movies
-  resources :theaters
 
   # Get routes
   get 'theater_map/map', to: 'theater_map#map', as: 'theater_map'

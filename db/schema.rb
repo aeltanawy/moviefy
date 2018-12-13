@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_12_11_053403) do
+ActiveRecord::Schema.define(version: 2018_12_13_041818) do
 
   create_table "crews", force: :cascade do |t|
     t.string "director_name"
@@ -47,6 +47,15 @@ ActiveRecord::Schema.define(version: 2018_12_11_053403) do
     t.float "imdb_score"
     t.float "aspect_ratio"
     t.integer "movie_fb_likes"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "theaters", force: :cascade do |t|
+    t.string "state"
+    t.string "city"
+    t.string "theater_name"
+    t.string "zipcode"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

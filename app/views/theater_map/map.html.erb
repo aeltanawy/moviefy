@@ -1,0 +1,57 @@
+<!--
+********************************************************************************
+*   The following template is adapted from Google Charts
+*   Availability:
+		https://developers.google.com/maps/documentation/javascript/importing_data
+********************************************************************************
+-->
+<h2 style='text-align:center;'><%= image_tag "cinemarkLogo.png", style: 'width:200px' %> Movie Theaters in the US</h2><br><br>
+
+<style>
+  /* Always set the map height explicitly to define the size of the div
+   * element that contains the map. */
+  #map {
+    height: 100%;
+  }
+  /* Optional: Makes the sample page fill the window. */
+  html, body {
+    height: 90%;
+  }
+</style>
+
+<div id="map"></div>
+<script src="http://maps.google.com/maps/api/js?key=AIzaSyCOtOfdIeUZGzfUMzYobQ8Ns7ekAT65jQA" type="text/javascript"></script>
+
+<div id="map" style="height: 400px; width: 500px;"></div>
+
+<script type="text/javascript">
+  var locations = [
+    ['Anchorage', 'AK', 61.1911, -149.8902, 'Century 16 and XD', '99503'],
+    ['Huntsville', 'AL', 34.7304, -86.5861, 'Cinemark Bridge Street and XD', '35806'],
+  ];
+
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 3.3,
+    center: new google.maps.LatLng(39, -98),
+  });
+
+  var infowindow = new google.maps.InfoWindow();
+
+  var marker, i;
+  var len = locations.length;
+
+  for (i = 0; i < len; i++) {
+    marker = new google.maps.Marker({
+      position: new google.maps.LatLng(locations[i][2], locations[i][3]),
+      map: map,
+    });
+
+    google.maps.event.addListener(marker, 'click', (function(marker, i) {
+      return function() {
+        var contentString = '</div>'+ '<h5><b>' + locations[i][0] + ', ' + locations[i][1] + '</b></h5>' + '<div id="bodyContent">' + '<p>' + locations[i][4] + '<br>' + '<strong>Zipcode:</strong> ' + locations[i][5] + '</p>'+ '</div>';
+        infowindow.setContent(contentString);
+        infowindow.open(map, marker);
+      }
+    })(marker, i));
+  }
+</script>

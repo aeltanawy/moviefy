@@ -1,4 +1,4 @@
-state,city,theater_name,Zipcode
+state,city,theater_name,zipcode
 AK,Anchorage,Century 16 and XD,99503
 AL,Huntsville,Cinemark Bridge Street and XD,35806
 AR,Benton,Cinemark Tinseltown USA,72015
@@ -21,7 +21,7 @@ CA,Danville,Century Blackhawk Plaza,94506
 CA,Downey,Cinemark Downey and XD,90242
 CA,El Centro,Cinemark Imperial Valley Mall 14,92243
 CA,Elk Grove ,Century Laguna 16 and XD,95758
-CA,Folsom,Century Folsom 14 ,95630
+CA,Folsom,Century Folsom 14,95630
 CA,Fremont ,Century at Pacific Commons and XD,94538
 CA,Hanford ,Cinemark Movies 8,93230
 CA,Hayward,Century at Hayward,94541
@@ -36,7 +36,7 @@ CA,Los Angeles ,Cinemark 18 & XD,90045
 CA,Marina,Century Marina and XD,93933
 CA,Mill Valley,CinéArts Sequoia,94941
 CA,Milpitas,Century 20 Great Mall and XD,95035
-CA,Monterey,Monterey 13 ,93940
+CA,Monterey,Monterey 13,93940
 CA,Mountain View,Century Cinema 16,94043
 CA,Napa,Century Napa Valley and XD,94559
 CA,North Hollywood,Cinemark North Hollywood,91606
@@ -63,8 +63,8 @@ CA,San Bruno,Century at Tanforan and XD,94066
 CA,San Francisco,CinéArts at the Empire ,94127
 CA,San Francisco,Century San Francisco Centre 9 and XD,94103
 CA,San Jose,CineArts Santana Row,95128
-CA,San Jose,Century 20 Oakridge and XD ,95123
-CA,San Leandro,Century 16 Bayfair Mall ,94578
+CA,San Jose,Century 20 Oakridge and XD,95123
+CA,San Leandro,Century 16 Bayfair Mall,94578
 CA,San Mateo,Century 12 San Mateo,94010
 CA,San Rafael,Century Northgate ,94903
 CA,San Rafael,Century Regency,94903
@@ -102,7 +102,7 @@ FL,Orlando,Universal Cinemark at CityWalk,32819
 GA,Fayetteville,Cinemark Movies 10,30214
 GA,Fayetteville,Cinemark Tinseltown 17 and XD,30214
 IA,Altoona,Cinemark Altoona and XD,50009
-IA,Ames,Cinemark Movies 12 ,50010
+IA,Ames,Cinemark Movies 12,50010
 IA,Davenport,Davenport 53rd 18 + IMAX,52807
 IA,West Des Moines,Century 20 Jordan Creek and XD,50266
 IL,Bloomingdale,Century Stratford Square,60108
@@ -139,21 +139,21 @@ MD,Hanover,Cinemark Egyptian 24 and XD,21076
 MD,Towson,Cinemark Towson and XD,21286
 MI,Flint,Flint West 14,48532
 MI,Taylor,Cinemark Southland Center and XD,48180
-MI,Ypsilanti,Ann Arbor 20 + IMAX ,48197
+MI,Ypsilanti,Ann Arbor 20 + IMAX,48197
 MN,Mankato,Cinemark River Hills Movies 8,56001
 MO,Kansas City,Cinemark Palace at The Plaza,64112
 MS,Gulfport,Cinemark 16,39503
-MS,Tupelo,Cinemark Movies 8 ,38804
+MS,Tupelo,Cinemark Movies 8,38804
 MT,Helena,Cinemark Helena and XD,59601
 MT,Kalispell,Signature Stadium 14,59901
 NC,Asheboro,Cinemark Asheboro,27203
 NC,Asheville,The Carolina Cinemark Asheville,28803
 NC,Charlotte,Cinemark Movie Bistro Charlotte,28270
 NC,Greensboro,Cinemark Brassfield Cinema Ten,27410
-NC,Matthews,Cinemark Movies 10 ,28105
+NC,Matthews,Cinemark Movies 10,28105
 NC,Raleigh,Cinemark Raleigh Grande,27613
 NC,Salisbury,Cinemark Tinseltown USA ,28146
-NJ,Hazlet,Cinemark Hazlet 12 ,07730
+NJ,Hazlet,Cinemark Hazlet 12,07730
 NJ,Somerdale,Cinemark 16 and XD,08083
 NM,Albuquerque,Cinemark Movies 8,87109
 NM,Albuquerque,Cinemark Movies West,87114

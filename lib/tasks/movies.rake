@@ -26,6 +26,7 @@ namespace :movies do
         budget: row['budget'].to_i,
         title_year: row['title_year'].to_i,
         imdb_score: row['imdb_score'].to_i,
+        aspect_ratio: row['aspect_ratio'].to_f,
         movie_fb_likes: row['movie_facebook_likes'].to_i,
       )
 

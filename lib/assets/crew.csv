@@ -1,67 +1,67 @@
 movie_title,director_name,director_facebook_likes,actor_1_name,actor_1_facebook_likes,actor_2_name,actor_2_facebook_likes,actor_3_name,actor_3_facebook_likes,cast_total_facebook_likes
-Avatar ,James Cameron,0,CCH Pounder,1000,Joel David Moore,936,Wes Studi,855,4834
-Pirates of the Caribbean: At World's End ,Gore Verbinski,563,Johnny Depp,40000,Orlando Bloom,5000,Jack Davenport,1000,48350
-Spectre ,Sam Mendes,0,Christoph Waltz,11000,Rory Kinnear,393,Stephanie Sigman,161,11700
-The Dark Knight Rises ,Christopher Nolan,22000,Tom Hardy,27000,Christian Bale,23000,Joseph Gordon-Levitt,23000,106759
-John Carter ,Andrew Stanton,475,Daryl Sabara,640,Samantha Morton,632,Polly Walker,530,1873
+Avatar,James Cameron,0,CCH Pounder,1000,Joel David Moore,936,Wes Studi,855,4834
+Pirates of the Caribbean: At World's End,Gore Verbinski,563,Johnny Depp,40000,Orlando Bloom,5000,Jack Davenport,1000,48350
+Spectre,Sam Mendes,0,Christoph Waltz,11000,Rory Kinnear,393,Stephanie Sigman,161,11700
+The Dark Knight Rises,Christopher Nolan,22000,Tom Hardy,27000,Christian Bale,23000,Joseph Gordon-Levitt,23000,106759
+John Carter,Andrew Stanton,475,Daryl Sabara,640,Samantha Morton,632,Polly Walker,530,1873
 Spider-Man 3,Sam Raimi,0,J.K. Simmons,24000,James Franco,11000,Kirsten Dunst,4000,46055
-Tangled ,Nathan Greno,15,Brad Garrett,799,Donna Murphy,553,M.C. Gainey,284,2036
-Avengers: Age of Ultron ,Joss Whedon,0,Chris Hemsworth,26000,Robert Downey Jr.,21000,Scarlett Johansson,19000,92000
-Harry Potter and the Half-Blood Prince ,David Yates,282,Alan Rickman,25000,Daniel Radcliffe,11000,Rupert Grint,10000,58753
-Batman v Superman: Dawn of Justice ,Zack Snyder,0,Henry Cavill,15000,Lauren Cohan,4000,Alan D. Purwin,2000,24450
-Superman Returns ,Bryan Singer,0,Kevin Spacey,18000,Marlon Brando,10000,Frank Langella,903,29991
-Quantum of Solace ,Marc Forster,395,Giancarlo Giannini,451,Mathieu Amalric,412,Rory Kinnear,393,2023
-Pirates of the Caribbean: Dead Man's Chest ,Gore Verbinski,563,Johnny Depp,40000,Orlando Bloom,5000,Jack Davenport,1000,48486
-The Lone Ranger ,Gore Verbinski,563,Johnny Depp,40000,Ruth Wilson,2000,Tom Wilkinson,1000,45757
-Man of Steel ,Zack Snyder,0,Henry Cavill,15000,Christopher Meloni,3000,Harry Lennix,748,20495
-The Chronicles of Narnia: Prince Caspian ,Andrew Adamson,80,Peter Dinklage,22000,Pierfrancesco Favino,216,Damián Alcázar,201,22697
-The Avengers ,Joss Whedon,0,Chris Hemsworth,26000,Robert Downey Jr.,21000,Scarlett Johansson,19000,87697
-Pirates of the Caribbean: On Stranger Tides ,Rob Marshall,252,Johnny Depp,40000,Sam Claflin,11000,Stephen Graham,1000,54083
+Tangled,Nathan Greno,15,Brad Garrett,799,Donna Murphy,553,M.C. Gainey,284,2036
+Avengers: Age of Ultron,Joss Whedon,0,Chris Hemsworth,26000,Robert Downey Jr.,21000,Scarlett Johansson,19000,92000
+Harry Potter and the Half-Blood Prince,David Yates,282,Alan Rickman,25000,Daniel Radcliffe,11000,Rupert Grint,10000,58753
+Batman v Superman: Dawn of Justice,Zack Snyder,0,Henry Cavill,15000,Lauren Cohan,4000,Alan D. Purwin,2000,24450
+Superman Returns,Bryan Singer,0,Kevin Spacey,18000,Marlon Brando,10000,Frank Langella,903,29991
+Quantum of Solace,Marc Forster,395,Giancarlo Giannini,451,Mathieu Amalric,412,Rory Kinnear,393,2023
+Pirates of the Caribbean: Dead Man's Chest,Gore Verbinski,563,Johnny Depp,40000,Orlando Bloom,5000,Jack Davenport,1000,48486
+The Lone Ranger,Gore Verbinski,563,Johnny Depp,40000,Ruth Wilson,2000,Tom Wilkinson,1000,45757
+Man of Steel,Zack Snyder,0,Henry Cavill,15000,Christopher Meloni,3000,Harry Lennix,748,20495
+The Chronicles of Narnia: Prince Caspian,Andrew Adamson,80,Peter Dinklage,22000,Pierfrancesco Favino,216,Damián Alcázar,201,22697
+The Avengers,Joss Whedon,0,Chris Hemsworth,26000,Robert Downey Jr.,21000,Scarlett Johansson,19000,87697
+Pirates of the Caribbean: On Stranger Tides,Rob Marshall,252,Johnny Depp,40000,Sam Claflin,11000,Stephen Graham,1000,54083
 Men in Black 3,Barry Sonnenfeld,188,Will Smith,10000,Michael Stuhlbarg,816,Nicole Scherzinger,718,12572
-The Hobbit: The Battle of the Five Armies ,Peter Jackson,0,Aidan Turner,5000,Adam Brown,972,James Nesbitt,773,9152
-The Amazing Spider-Man ,Marc Webb,464,Emma Stone,15000,Andrew Garfield,10000,Chris Zylka,963,28489
-Robin Hood ,Ridley Scott,0,Mark Addy,891,William Hurt,882,Scott Grimes,738,3244
-The Hobbit: The Desolation of Smaug ,Peter Jackson,0,Aidan Turner,5000,Adam Brown,972,James Nesbitt,773,9152
-The Golden Compass ,Chris Weitz,129,Christopher Lee,16000,Eva Green,6000,Kristin Scott Thomas,1000,24106
-King Kong ,Peter Jackson,0,Naomi Watts,6000,Thomas Kretschmann,919,Evan Parke,84,7123
-Titanic ,James Cameron,0,Leonardo DiCaprio,29000,Kate Winslet,14000,Gloria Stuart,794,45223
-Captain America: Civil War ,Anthony Russo,94,Robert Downey Jr.,21000,Scarlett Johansson,19000,Chris Evans,11000,64798
-Battleship ,Peter Berg,532,Liam Neeson,14000,Alexander Skarsgård,10000,Tadanobu Asano,627,26679
-Jurassic World ,Colin Trevorrow,365,Bryce Dallas Howard,3000,Judy Greer,2000,Omar Sy,1000,8458
-Skyfall ,Sam Mendes,0,Albert Finney,883,Helen McCrory,563,Rory Kinnear,393,2039
+The Hobbit: The Battle of the Five Armies,Peter Jackson,0,Aidan Turner,5000,Adam Brown,972,James Nesbitt,773,9152
+The Amazing Spider-Man,Marc Webb,464,Emma Stone,15000,Andrew Garfield,10000,Chris Zylka,963,28489
+Robin Hood,Ridley Scott,0,Mark Addy,891,William Hurt,882,Scott Grimes,738,3244
+The Hobbit: The Desolation of Smaug,Peter Jackson,0,Aidan Turner,5000,Adam Brown,972,James Nesbitt,773,9152
+The Golden Compass,Chris Weitz,129,Christopher Lee,16000,Eva Green,6000,Kristin Scott Thomas,1000,24106
+King Kong,Peter Jackson,0,Naomi Watts,6000,Thomas Kretschmann,919,Evan Parke,84,7123
+Titanic,James Cameron,0,Leonardo DiCaprio,29000,Kate Winslet,14000,Gloria Stuart,794,45223
+Captain America: Civil War,Anthony Russo,94,Robert Downey Jr.,21000,Scarlett Johansson,19000,Chris Evans,11000,64798
+Battleship,Peter Berg,532,Liam Neeson,14000,Alexander Skarsgård,10000,Tadanobu Asano,627,26679
+Jurassic World,Colin Trevorrow,365,Bryce Dallas Howard,3000,Judy Greer,2000,Omar Sy,1000,8458
+Skyfall,Sam Mendes,0,Albert Finney,883,Helen McCrory,563,Rory Kinnear,393,2039
 Spider-Man 2,Sam Raimi,0,J.K. Simmons,24000,James Franco,11000,Kirsten Dunst,4000,43388
 Iron Man 3,Shane Black,1000,Robert Downey Jr.,21000,Jon Favreau,4000,Don Cheadle,3000,30426
-Alice in Wonderland ,Tim Burton,13000,Johnny Depp,40000,Alan Rickman,25000,Anne Hathaway,11000,79957
-X-Men: The Last Stand ,Brett Ratner,420,Hugh Jackman,20000,Kelsey Grammer,808,Daniel Cudmore,560,21714
-Monsters University ,Dan Scanlon,37,Steve Buscemi,12000,Tyler Labine,779,Sean Hayes,760,14863
-Transformers: Revenge of the Fallen ,Michael Bay,0,Glenn Morshower,894,Kevin Dunn,581,Ramon Rodriguez,464,3218
-Transformers: Age of Extinction ,Michael Bay,0,Bingbing Li,974,Sophia Myles,956,Kelsey Grammer,808,3988
-Oz the Great and Powerful ,Sam Raimi,0,Tim Holmes,44000,Mila Kunis,15000,James Franco,11000,73441
+Alice in Wonderland,Tim Burton,13000,Johnny Depp,40000,Alan Rickman,25000,Anne Hathaway,11000,79957
+X-Men: The Last Stand,Brett Ratner,420,Hugh Jackman,20000,Kelsey Grammer,808,Daniel Cudmore,560,21714
+Monsters University,Dan Scanlon,37,Steve Buscemi,12000,Tyler Labine,779,Sean Hayes,760,14863
+Transformers: Revenge of the Fallen,Michael Bay,0,Glenn Morshower,894,Kevin Dunn,581,Ramon Rodriguez,464,3218
+Transformers: Age of Extinction,Michael Bay,0,Bingbing Li,974,Sophia Myles,956,Kelsey Grammer,808,3988
+Oz the Great and Powerful,Sam Raimi,0,Tim Holmes,44000,Mila Kunis,15000,James Franco,11000,73441
 The Amazing Spider-Man 2,Marc Webb,464,Emma Stone,15000,Andrew Garfield,10000,B.J. Novak,825,28631
-TRON: Legacy ,Joseph Kosinski,364,Jeff Bridges,12000,Olivia Wilde,10000,James Frain,1000,25550
+TRON: Legacy,Joseph Kosinski,364,Jeff Bridges,12000,Olivia Wilde,10000,James Frain,1000,25550
 Cars 2,John Lasseter,487,Joe Mantegna,1000,Thomas Kretschmann,919,Eddie Izzard,776,4482
-Green Lantern ,Martin Campbell,258,Ryan Reynolds,16000,Temuera Morrison,368,Taika Waititi,326,17657
+Green Lantern,Martin Campbell,258,Ryan Reynolds,16000,Temuera Morrison,368,Taika Waititi,326,17657
 Toy Story 3,Lee Unkrich,125,Tom Hanks,15000,John Ratzenberger,1000,Don Rickles,721,19085
-Terminator Salvation ,McG,368,Christian Bale,23000,Bryce Dallas Howard,3000,Common,988,27468
+Terminator Salvation,McG,368,Christian Bale,23000,Bryce Dallas Howard,3000,Common,988,27468
 Furious 7,James Wan,0,Jason Statham,26000,Paul Walker,23000,Vin Diesel,14000,79150
-World War Z ,Marc Forster,395,Peter Capaldi,17000,Brad Pitt,11000,Mireille Enos,1000,32392
-X-Men: Days of Future Past ,Bryan Singer,0,Jennifer Lawrence,34000,Peter Dinklage,22000,Hugh Jackman,20000,91434
-Star Trek Into Darkness ,J.J. Abrams,14000,Benedict Cumberbatch,19000,Bruce Greenwood,981,Noel Clarke,928,21411
-Jack the Giant Slayer ,Bryan Singer,0,Eddie Marsan,979,Ewen Bremner,557,Ralph Brown,140,1766
-The Great Gatsby ,Baz Luhrmann,1000,Leonardo DiCaprio,29000,Elizabeth Debicki,509,Steve Bisley,77,29770
-Prince of Persia: The Sands of Time ,Mike Newell,179,Jake Gyllenhaal,15000,Richard Coyle,567,Reece Ritchie,236,16149
-Pacific Rim ,Guillermo del Toro,0,Charlie Hunnam,16000,Clifton Collins Jr.,968,Larry Joe Campbell,919,19166
-Transformers: Dark of the Moon ,Michael Bay,0,Glenn Morshower,894,Lester Speight,829,Kevin Dunn,581,2593
-Indiana Jones and the Kingdom of the Crystal Skull ,Steven Spielberg,14000,Harrison Ford,11000,Ray Winstone,1000,Jim Broadbent,1000,14959
-The Good Dinosaur ,Peter Sohn,113,A.J. Buckley,275,Jack McGraw,150,Peter Sohn,113,696
-Brave ,Mark Andrews,56,Kelly Macdonald,2000,John Ratzenberger,1000,Julie Walters,838,5005
-Star Trek Beyond ,Justin Lin,681,Sofia Boutella,998,Melissa Roxburgh,119,Lydia Wilson,105,1327
-WALL·E ,Andrew Stanton,475,John Ratzenberger,1000,Fred Willard,729,Jeff Garlin,522,2975
+World War Z,Marc Forster,395,Peter Capaldi,17000,Brad Pitt,11000,Mireille Enos,1000,32392
+X-Men: Days of Future Past,Bryan Singer,0,Jennifer Lawrence,34000,Peter Dinklage,22000,Hugh Jackman,20000,91434
+Star Trek Into Darkness,J.J. Abrams,14000,Benedict Cumberbatch,19000,Bruce Greenwood,981,Noel Clarke,928,21411
+Jack the Giant Slayer,Bryan Singer,0,Eddie Marsan,979,Ewen Bremner,557,Ralph Brown,140,1766
+The Great Gatsby,Baz Luhrmann,1000,Leonardo DiCaprio,29000,Elizabeth Debicki,509,Steve Bisley,77,29770
+Prince of Persia: The Sands of Time,Mike Newell,179,Jake Gyllenhaal,15000,Richard Coyle,567,Reece Ritchie,236,16149
+Pacific Rim,Guillermo del Toro,0,Charlie Hunnam,16000,Clifton Collins Jr.,968,Larry Joe Campbell,919,19166
+Transformers: Dark of the Moon,Michael Bay,0,Glenn Morshower,894,Lester Speight,829,Kevin Dunn,581,2593
+Indiana Jones and the Kingdom of the Crystal Skull,Steven Spielberg,14000,Harrison Ford,11000,Ray Winstone,1000,Jim Broadbent,1000,14959
+The Good Dinosaur,Peter Sohn,113,A.J. Buckley,275,Jack McGraw,150,Peter Sohn,113,696
+Brave,Mark Andrews,56,Kelly Macdonald,2000,John Ratzenberger,1000,Julie Walters,838,5005
+Star Trek Beyond,Justin Lin,681,Sofia Boutella,998,Melissa Roxburgh,119,Lydia Wilson,105,1327
+WALL·E,Andrew Stanton,475,John Ratzenberger,1000,Fred Willard,729,Jeff Garlin,522,2975
 Rush Hour 3,Brett Ratner,420,Tzi Ma,268,Dana Ivey,268,Noémie Lenoir,173,1125
 2012,Roland Emmerich,776,Oliver Platt,1000,Liam James,468,Tom McCarthy,310,2144
-A Christmas Carol ,Robert Zemeckis,0,Robin Wright,18000,Colin Firth,14000,Gary Oldman,10000,48878
-Jupiter Ascending ,Lana Wachowski,0,Channing Tatum,17000,Mila Kunis,15000,Eddie Redmayne,13000,47334
-The Legend of Tarzan ,David Yates,282,Christoph Waltz,11000,Alexander Skarsgård,10000,Casper Crump,103,21175
-"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe ",Andrew Adamson,80,Jim Broadbent,1000,Kiran Shah,190,Shane Rangi,82,1317
-X-Men: Apocalypse ,Bryan Singer,0,Jennifer Lawrence,34000,Michael Fassbender,13000,Tye Sheridan,1000,49684
-The Dark Knight ,Christopher Nolan,22000,Christian Bale,23000,Heath Ledger,13000,Morgan Freeman,11000,57802
+A Christmas Carol,Robert Zemeckis,0,Robin Wright,18000,Colin Firth,14000,Gary Oldman,10000,48878
+Jupiter Ascending,Lana Wachowski,0,Channing Tatum,17000,Mila Kunis,15000,Eddie Redmayne,13000,47334
+The Legend of Tarzan,David Yates,282,Christoph Waltz,11000,Alexander Skarsgård,10000,Casper Crump,103,21175
+"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",Andrew Adamson,80,Jim Broadbent,1000,Kiran Shah,190,Shane Rangi,82,1317
+X-Men: Apocalypse,Bryan Singer,0,Jennifer Lawrence,34000,Michael Fassbender,13000,Tye Sheridan,1000,49684
+The Dark Knight,Christopher Nolan,22000,Christian Bale,23000,Heath Ledger,13000,Morgan Freeman,11000,57802

@@ -17,7 +17,7 @@
  body {
    margin-left: 20px;
    margin-right: 20px;
-   margin-top: 60px;
+   margin-top: 65px;
    margin-bottom: 40px;
    width: auto;
  }
@@ -30,7 +30,7 @@
  }
 
  a:hover {
-   background-color: rgb(40, 41, 39) !important;
+   background-color: rgb(40, 41, 39);
  }
 
 
@@ -49,7 +49,6 @@
    .thumbnail {
      margin-left: 4px;
      margin-right: 4px;
-     margin-top: 10px;
      text-decoration: none;
      font-size: 10pt;
      text-align: center;
@@ -81,4 +80,37 @@
   .thumbnail:hover span:after {
     opacity: 1;
     right: 0;
+  }
+
+  .movies {
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .movies form {
+   display: inline-block;
+   float: auto;
+   margin: 4px;
+   height: 330px;
+  }
+
+  .right-graph, .left-graph {
+    width: 45%;
+    margin-top: 20px;
+    float: left;
+    height: 500px;
+  }
+
+  .left-image, .right-info {
+    float: left;
+    margin-top: 20px;
+  }
+
+  .left-graph, .left-image {
+    margin-right: 20px;
+  }
+
+  .container {
+    width: 100%;
   }

@@ -2,14 +2,16 @@
     <h1>Moviefy</h1>
 </div>
 
-<div style="width:100%; text-align:center;">
-  <form action="movies/:id" method="get">
-    <% Dir.glob('app/assets/images/thumbnail/*').map do |item| %>
-      <% movie_name = File.basename(item) %>
-        <button class="thumbnail" name="movie_id">
-          <span><%= image_tag "thumbnail/#{movie_name}" %></span><br>
-          <strong><%= construct_movie_name(movie_name[0...-4]) %></strong>
-        </button>
-    <% end %>
-  </form>
+<div class='movies'>
+  <% Dir.glob('app/assets/images/thumbnail/*').map do |item| %>
+    <% movie_name = File.basename(item) %>
+    <% movie_title = construct_movie_name(movie_name[0...-4]) %>
+    <form class='form-inline' action="show_movie/:id" method="get">
+      <input type='hidden' name='movie_id' value='<%= movie_title %>'>
+      <button class="thumbnail" type='submit'>
+        <span><%= image_tag "thumbnail/#{movie_name}" %></span><br>
+        <strong><%= movie_title %></strong>
+      </button>
+    </form>
+  <% end %>
 </div>

@@ -1,0 +1,165 @@
+<div>
+  <div class='container'>
+    <h1><%= @movie_title %></h1>
+  </div>
+  <div class='container'>
+    <div class='left-image'>
+      <% movie_name = construct_file_name(@movie_title) %>
+      <span><%= image_tag "thumbnail/#{movie_name}.png" %></span>
+    </div>
+    <div class='right-info'>
+      <p>
+        <strong>Title year:</strong>
+        <%= @movie.title_year %><br>
+
+        <strong>Content rating:</strong>
+        <%= @movie.content_rating %><br>
+
+        <strong>Genres:</strong>
+        <%= replace_pip_with_comma(@movie.genres) %><br>
+
+        <strong>Duration:</strong>
+        <%= @movie.duration %><br>
+
+        <strong>Number of critic for reviews:</strong>
+        <%= @movie.num_critic_for_reviews %><br>
+
+        <strong>Number of voted users:</strong>
+        <%= @movie.num_voted_users %><br>
+
+        <strong>Number of user for reviews:</strong>
+        <%= @movie.num_user_for_reviews %><br>
+
+        <strong>Facenumber in poster:</strong>
+        <%= @movie.facenumber_in_poster %><br>
+
+        <strong>Plot keywords:</strong>
+        <%= replace_pip_with_comma(@movie.plot_keywords) %><br>
+
+        <strong>Aspect ratio:</strong>
+        <%= @movie.aspect_ratio %><br>
+
+        <strong>Language:</strong>
+        <%= @movie.language %><br>
+
+        <strong>Country:</strong>
+        <%= @movie.country %><br>
+
+        <strong>Movie fb likes:</strong>
+        <%= @movie.movie_fb_likes %><br>
+
+        <strong>Imdb score:</strong>
+        <%= @movie.imdb_score %><br>
+
+        <strong>Movie imdb link:</strong>
+        <%= link_to @movie.movie_imdb_link, "#{@movie.movie_imdb_link}" %><br>
+      </p>
+      <p>
+        <strong>Director name:</strong>
+        <%= @crew.director_name %><br>
+
+        <strong>Actor 1 name:</strong>
+        <%= @crew.actor_1_name %><br>
+
+        <strong>Actor 2 name:</strong>
+        <%= @crew.actor_2_name %><br>
+
+        <strong>Actor 3 name:</strong>
+        <%= @crew.actor_3_name %><br>
+
+        <strong>Cast total facebook likes:</strong>
+        <%= @crew.cast_total_facebook_likes %><br>
+      </p>
+    </div>
+  </div>
+
+  <!--Charts -->
+  <div class='container'>
+    <div class='left-graph'>
+      <div id = "container">
+        <script type="text/javascript">
+          $(function () {
+            Highcharts.chart('container', {
+              chart: {
+                type: 'column'
+              },
+              title: {
+                text: 'Profit'
+              },
+              xAxis: {
+                categories: [''],
+                title: {
+                  text: null
+                }
+              },
+              yAxis: {
+                title: {
+                  text: 'US dollars'
+                },
+              },
+              tooltip: {
+                formatter: function () {
+                  return '<b>' + this.series.name + '</b><br>' + '<span style="color:' + this.color + ' font-weight:bold">● ' + ' $</span>' + this.y + '<br>';
+                },
+                shared: false,
+              },
+              series: [{
+                name: 'Budget',
+                data: <%= raw [@movie.budget] %>
+              }, {
+                name: 'Gross',
+                data: <%= raw [@movie.gross] %>
+              }]
+            });
+          });
+        </script>
+      </div>
+    </div>
+    <div class='right-graph'>
+      <div id = "container2">
+        <script type="text/javascript">
+          $(function () {
+            Highcharts.chart('container2', {
+              chart: {
+                type: 'column'
+              },
+              title: {
+                text: 'Facebook Likes'
+              },
+              xAxis: {
+                categories: [''],
+                title: {
+                  text: null
+                }
+              },
+              yAxis: {
+                title: {
+                  text: 'Number of likings'
+                },
+              },
+              tooltip: {
+                formatter: function () {
+                  return '<b>' + this.series.name + '</b><br>' + '<span style="color:' + this.color + ' font-weight:bold">● ' + ' $</span>' + this.y + '<br>';
+                },
+                shared: false,
+              },
+              series: [{
+                name: 'Director',
+                data: <%= raw [@crew.director_facebook_likes] %>
+              }, {
+                name: 'Actor 1',
+                data: <%= raw [@crew.actor_1_facebook_likes] %>
+              }, {
+                name: 'Actor 2',
+                data: <%= raw [@crew.actor_2_facebook_likes] %>
+              }, {
+                name: 'Actor 3',
+                data: <%= raw [@crew.actor_3_facebook_likes] %>
+              }]
+            });
+          });
+        </script>
+      </div>
+    </div>
+  </div>
+</div>

@@ -87,13 +87,14 @@
   //}
 
   .movies {
-    width: 100%;
+    width: 95%;
   }
 
   .movies form {
    display: block;
    float: left;
    height: 330px;
+   margin-right: 4px;
   }
 
   .right-graph, .left-graph {

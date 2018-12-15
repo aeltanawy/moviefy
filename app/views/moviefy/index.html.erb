@@ -9,8 +9,10 @@
     <form class='form-inline' action="show_movie/:id" method="get">
       <input type='hidden' name='movie_id' value='<%= movie_title %>'>
       <button class="thumbnail" type='submit'>
-        <span><%= image_tag "thumbnail/#{movie_name}" %></span><br>
-        <strong><%= movie_title %></strong>
+        <span>
+          <%= image_tag "thumbnail/#{movie_name}" %><br>
+          <strong><%= movie_title %></strong>
+        </span>
       </button>
     </form>
   <% end %>

@@ -47,40 +47,46 @@
    }
 
    .thumbnail {
-     margin-left: 4px;
-     margin-right: 4px;
-     text-decoration: none;
      font-size: 10pt;
      text-align: center;
      width: 200px;
-     float: auto;
+     border: none;
+     position: relative;
+     padding-left: 4px;
+     position: relative;
    }
 
    .thumbnail span {
     cursor: pointer;
-    display: inline-block;
-    position: relative;
+    margin-top: 2px;
+    position: absolute;
     transition: 0.5s;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 2px;
   }
 
-  .thumbnail span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-    font-size: 13pt;
-  }
+  //.thumbnail span:after {
+    //content: '\00bb';
+    //position: absolute;
+    //opacity: 0;
+    //top: 0;
+    //right: -20px;
+    //transition: 0.5s;
+    //font-size: 13pt;
+  //}
 
   .thumbnail:hover span {
     padding-right: 11px;
+    border: inset;
+    border-width: 2px;
+
   }
 
-  .thumbnail:hover span:after {
-    opacity: 1;
-    right: 0;
-  }
+  //.thumbnail:hover span:after {
+    //opacity: 1;
+    //right: 0;
+  //}
 
   .movies {
     justify-content: center;
@@ -125,6 +131,10 @@
     background-color: rgb(194, 192, 196);
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
  }
+
+ button.thumbnail:focus {
+  outline: 0;
+  }
 
  button.purchase:hover {
    cursor: pointer;

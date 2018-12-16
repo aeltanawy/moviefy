@@ -23,7 +23,7 @@
 
   <div class="field">
     <%= form.label 'Date of birth' %>
-    <%= form.select :dob, Date.today.year-100..Date.today.year-10 %>
+    <%= form.date_select(:dob, options = {:start_year => Date.today.year-100, :end_year => Date.today.year-10 }) %>
   </div>
 
   <div class="field">

@@ -18,7 +18,12 @@
 
   <div class="field">
     <%= form.label 'Movie:' %>
-    <%= form.label @movie.movie_title %>
+    <% if admin? && !params[:movie_id] %>
+      <%= form.collection_select(:movie_id, @movies, :id, :movie_title) %>
+    <% else %>
+      <% movie = Movie.find(params[:movie_id]) %>
+      <%= form.label movie.movie_title %>
+    <% end %>
   </div>
 
   <div class="field">

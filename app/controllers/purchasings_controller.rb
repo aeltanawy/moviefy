@@ -18,8 +18,7 @@ class PurchasingsController < ApplicationController
     @theaters = Theater.all
     @billing_address = BillingAddress.new
     @credit_card = CreditCard.new
-
-    @movie = Movie.find(params[:movie_id])
+    @movies = Movie.all
   end
 
   # GET /purchasings/1/edit

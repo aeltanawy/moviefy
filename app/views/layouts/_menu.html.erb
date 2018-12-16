@@ -1,5 +1,7 @@
-<nav class="navbar navbar-expand-sm fixed-top nav-dark bg-dark" role="navigation">
-  <a><%= link_to('Home', root_path, :class=>"navbar-header") %></a>
+<nav class="navbar navbar-expand-md fixed-top nav-dark bg-dark" role="navigation">
+  <div class="navbar-header">
+    <%= link_to('Home', root_path) %>
+  </div>
 
   <button class="navbar-toggler navbar-dark bg-dark" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -8,38 +10,45 @@
   <div class="collapse navbar-collapse" id="navbarToggler">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item" style="margin-top:8px;">
-        <a><%= link_to "Find a Theater", theater_map_path %> </a>
+        <%= link_to "Find a Theater", theater_map_path %>
       </li>
       <li class="nav-item" style="margin-top:8px;">
-        <a><%= link_to "Movies", movies_path %> </a>
+        <%= link_to "Movies", movies_path %>
       </li>
       <li class="nav-item" style="margin-top:8px;">
-        <a><%= link_to 'Crews', crews_path %></a>
+        <%= link_to 'Crews', crews_path %>
       </li>
-      <li class="nav-item" style="margin-top:8px;">
-        <a><%= link_to "Search" %> </a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" style="margin-left:8px;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Search
+        </a>
+        <div class="dropdown-menu nav-dark bg-dark" aria-labelledby="navbarDropdown">
+         <a class="dropdown-item"><%= link_to "Movie" %></a>
+         <a class="dropdown-item"><%= link_to "Crew"%></a>
+         <a class="dropdown-item"><%= link_to "Theater" %></a>
+        </div>
       </li>
-      <li class="nav-item" style="margin-top:8px; margin-left: 12px; color:white"> | </li>
+      <li class="nav-item" style="margin-top:8px; margin-left: 12px; margin-right: 12px; color:white"> | </li>
 
       <% if logged_in? %>
         <!-- if a user is logged in -->
         <li class="nav-item" style="margin-top:8px;">
-          <a><%= link_to "Log out", logout_path %> </a>
+          <%= link_to "Log out", logout_path %>
         </li>
         <!-- add admin label if admin -->
         <% if admin? %>
           <li class="nav-item" style="margin-top:8px;">
-            <a><%= link_to 'Admin', admin_dashboard_path %></a>
+            <%= link_to 'Admin', admin_dashboard_path %>
           </li>
         <% else %>
           <li class="nav-item" style="margin-top:8px;">
-            <a><%= link_to 'Profile', user_path(session[:user_id]) %></a>
+            <%= link_to 'Profile', user_path(session[:user_id]) %>
           </li>
         <% end %>
       <% else %>
         <!-- if no user is logged in -->
         <li class="nav-item" style="margin-top:8px;">
-          <a><%= link_to "Log in / Sign up", login_path %> </a>
+          <%= link_to "Log in / Sign up", login_path %>
         </li>
       <% end %>
 

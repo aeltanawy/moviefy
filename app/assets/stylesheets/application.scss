@@ -12,71 +12,78 @@
  *
  */
 
- @import 'bootstrap';
+  @import 'bootstrap';
 
- body {
+  body {
    margin-left: 20px;
    margin-right: 20px;
    margin-top: 65px;
    margin-bottom: 40px;
    width: auto;
- }
+  }
 
- .navbar-header, .nav-link, .nav-item, .navbar a{
+  .navbar-header, .nav-link, .nav-item a{
    padding: 8px;
    border-radius: 4px;
    color: white;
    text-decoration: none;
- }
+  }
 
- .nav-item a:hover {
+  .navbar-header a{
+   padding: 8px;
+   border-radius: 4px;
+   color: white;
+   text-decoration: none;
+  }
+
+  .nav-item a:hover {
    background-color: rgb(40, 41, 39);
- }
+  }
 
- .navbar a:hover {
+  .navbar a:hover {
    background-color: rgb(40, 41, 39);
- }
+  }
 
 
- div
-   .dropdown-menu {
-     padding-left: 10px;
-   }
 
-   .title {
-     margin-left: auto;
-     margin-right: auto;
-     width: 100%;
-     text-align: center;
-   }
+  .dropdown-menu {
+   padding-left: 10px;
+  }
 
-   .thumbnail {
-     font-size: 10pt;
-     width: 200px;
-     border: none;
-     position: relative;
-     position: relative;
-   }
+  .title {
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+   text-align: center;
+  }
 
-   .thumbnail span {
-    cursor: pointer;
-    margin-top: 2px;
-    position: absolute;
-    transition: 0.1s;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 2px;
-    padding-right: 10px;
+  .thumbnail {
+   font-size: 10pt;
+   width: 200px;
+   border: none;
+   position: relative;
+   position: relative;
+  }
+
+  .thumbnail span {
+  cursor: pointer;
+  margin-top: 2px;
+  position: absolute;
+  transition: 0.1s;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 2px;
+  padding-right: 10px;
   }
 
   //.thumbnail span:after {
-    //content: '\00bb';
-    //position: absolute;
-    //opacity: 0;
-    //top: 0;
-    //right: -20px;
-    //transition: 0.5s;
-    //font-size: 13pt;
+  //content: '\00bb';
+  //position: absolute;
+  //opacity: 0;
+  //top: 0;
+  //right: -20px;
+  //transition: 0.5s;
+  //font-size: 13pt;
   //}
 
   .thumbnail:hover span {

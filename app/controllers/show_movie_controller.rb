@@ -2,7 +2,11 @@ class ShowMovieController < ApplicationController
   include ShowMovieHelper
 
   def show_movie
-    @movie_title = params[:movie_id]
+    if params[:movie_id]
+      @movie_title = params[:movie_id]
+    elsif params[:id]
+      @movie_title = params[:id]
+    end
 
     Movie.all.each do |movie|
       title = adjust_movie_title(movie.movie_title)

@@ -23,12 +23,12 @@
 
   <div class="field">
     <%= form.label 'Date of birth' %>
-    <%= form.date_select(:dob, options = {:start_year => Date.today.year-100, :end_year => Date.today.year-10 }) %>
+    <%= form.date_select(:dob, options = {:include_blank => true, :start_year => Date.today.year-100, :end_year => Date.today.year-10 }) %>
   </div>
 
   <div class="field">
     <%= form.label :gender %>
-    <%= form.text_field :gender %>
+    <%= form.select :gender, options_for_select(['Select','F', 'M']) %>
   </div>
 
   <div class="field">
@@ -45,6 +45,14 @@
     <%= form.label :password_confirmation, 'Confirm Password' %>
     <%= form.password_field :password_confirmation %>
   </div>
+
+  <!-- only admin can authorize admin privileges-->
+  <% if admin? %>
+    <div class="field">
+      <%= form.label :admin, 'Authorize administrative privileges?' %>
+      <%= form.check_box :admin %>
+    </div>
+  <% end %>
 
   <div class="actions">
     <%= form.submit %>

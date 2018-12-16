@@ -1,6 +1,7 @@
 class User < ApplicationRecord
   validates :first_name, presence: true, length: {maximum: 25}
   validates :last_name, presence: true, length: {maximum: 25}
+  validates :gender, acceptance: {accept: ['F', 'M']}
   validates :dob, presence: true
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   validates :email, presence: true, length: { maximum: 75 },

@@ -1,94 +1,97 @@
 <p id="notice"><%= notice %></p>
+<!-- only admin -->
+<% if admin? %>
 
-<p>
-  <strong>Movie title:</strong>
-  <%= @movie.movie_title %>
-</p>
+  <p>
+    <strong>Movie title:</strong>
+    <%= @movie.movie_title %>
+  </p>
 
-<p>
-  <strong>Num critic for reviews:</strong>
-  <%= @movie.num_critic_for_reviews %>
-</p>
+  <p>
+    <strong>Num critic for reviews:</strong>
+    <%= @movie.num_critic_for_reviews %>
+  </p>
 
-<p>
-  <strong>Duration:</strong>
-  <%= @movie.duration %>
-</p>
+  <p>
+    <strong>Duration:</strong>
+    <%= @movie.duration %>
+  </p>
 
-<p>
-  <strong>Gross:</strong>
-  <%= @movie.gross %>
-</p>
+  <p>
+    <strong>Gross:</strong>
+    <%= @movie.gross %>
+  </p>
 
-<p>
-  <strong>Genres:</strong>
-  <%= @movie.genres %>
-</p>
+  <p>
+    <strong>Genres:</strong>
+    <%= @movie.genres %>
+  </p>
 
-<p>
-  <strong>Movie imdb link:</strong>
-  <%= @movie.movie_imdb_link %>
-</p>
+  <p>
+    <strong>Movie imdb link:</strong>
+    <%= @movie.movie_imdb_link %>
+  </p>
 
-<p>
-  <strong>Num voted users:</strong>
-  <%= @movie.num_voted_users %>
-</p>
+  <p>
+    <strong>Num voted users:</strong>
+    <%= @movie.num_voted_users %>
+  </p>
 
-<p>
-  <strong>Facenumber in poster:</strong>
-  <%= @movie.facenumber_in_poster %>
-</p>
+  <p>
+    <strong>Facenumber in poster:</strong>
+    <%= @movie.facenumber_in_poster %>
+  </p>
 
-<p>
-  <strong>Plot keywords:</strong>
-  <%= @movie.plot_keywords %>
-</p>
+  <p>
+    <strong>Plot keywords:</strong>
+    <%= @movie.plot_keywords %>
+  </p>
 
-<p>
-  <strong>Num user for reviews:</strong>
-  <%= @movie.num_user_for_reviews %>
-</p>
+  <p>
+    <strong>Num user for reviews:</strong>
+    <%= @movie.num_user_for_reviews %>
+  </p>
 
-<p>
-  <strong>Language:</strong>
-  <%= @movie.language %>
-</p>
+  <p>
+    <strong>Language:</strong>
+    <%= @movie.language %>
+  </p>
 
-<p>
-  <strong>Country:</strong>
-  <%= @movie.country %>
-</p>
+  <p>
+    <strong>Country:</strong>
+    <%= @movie.country %>
+  </p>
 
-<p>
-  <strong>Content rating:</strong>
-  <%= @movie.content_rating %>
-</p>
+  <p>
+    <strong>Content rating:</strong>
+    <%= @movie.content_rating %>
+  </p>
 
-<p>
-  <strong>Budget:</strong>
-  <%= @movie.budget %>
-</p>
+  <p>
+    <strong>Budget:</strong>
+    <%= @movie.budget %>
+  </p>
 
-<p>
-  <strong>Title year:</strong>
-  <%= @movie.title_year %>
-</p>
+  <p>
+    <strong>Title year:</strong>
+    <%= @movie.title_year %>
+  </p>
 
-<p>
-  <strong>Imdb score:</strong>
-  <%= @movie.imdb_score %>
-</p>
+  <p>
+    <strong>Imdb score:</strong>
+    <%= @movie.imdb_score %>
+  </p>
 
-<p>
-  <strong>Aspect ratio:</strong>
-  <%= @movie.aspect_ratio %>
-</p>
+  <p>
+    <strong>Aspect ratio:</strong>
+    <%= @movie.aspect_ratio %>
+  </p>
 
-<p>
-  <strong>Movie fb likes:</strong>
-  <%= @movie.movie_fb_likes %>
-</p>
+  <p>
+    <strong>Movie fb likes:</strong>
+    <%= @movie.movie_fb_likes %>
+  </p>
 
-<%= link_to 'Edit', edit_movie_path(@movie) %> |
-<%= link_to 'Back', movies_path %>
+  <%= link_to 'Edit', edit_movie_path(@movie) %> |
+  <%= link_to 'Back', movies_path %>
+<% end %>

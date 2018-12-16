@@ -11,11 +11,13 @@
       <% movie_name = construct_file_name(@movie_title) %>
       <span><%= image_tag "thumbnail/#{movie_name}.png" %></span>
 
-      <!-- button to purchase movie ticket -->
-      <form class='purchase' action="/purchasings/new" method="get">
-        <input type='hidden' name='movie_id' value='<%= @movie.id %>'>
-        <button class='purchase' type='submit'>Purchase Movie Ticked</button>
-      </form>
+      <!-- button to purchase movie ticket if a user is logged in-->
+      <% if logged_in? %>
+        <form class='purchase' action="/purchasings/new" method="get">
+          <input type='hidden' name='movie_id' value='<%= @movie.id %>'>
+          <button class='purchase' type='submit'>Purchase Movie Ticked</button>
+        </form>
+      <% end %>
     </div>
 
     <!-- Movie information -->

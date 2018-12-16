@@ -1,34 +1,36 @@
 <p id="notice"><%= notice %></p>
+<!-- only admin -->
+<% if admin? %>
+  <p>
+    <strong>State:</strong>
+    <%= @theater.state %>
+  </p>
 
-<p>
-  <strong>State:</strong>
-  <%= @theater.state %>
-</p>
+  <p>
+    <strong>City:</strong>
+    <%= @theater.city %>
+  </p>
 
-<p>
-  <strong>City:</strong>
-  <%= @theater.city %>
-</p>
+  <p>
+    <strong>Latitude:</strong>
+    <%= @theater.latitude %>
+  </p>
 
-<p>
-  <strong>Latitude:</strong>
-  <%= @theater.latitude %>
-</p>
+  <p>
+    <strong>Longitude:</strong>
+    <%= @theater.longitude %>
+  </p>
 
-<p>
-  <strong>Longitude:</strong>
-  <%= @theater.longitude %>
-</p>
+  <p>
+    <strong>Theater name:</strong>
+    <%= @theater.theater_name %>
+  </p>
 
-<p>
-  <strong>Theater name:</strong>
-  <%= @theater.theater_name %>
-</p>
+  <p>
+    <strong>Zipcode:</strong>
+    <%= @theater.zipcode %>
+  </p>
 
-<p>
-  <strong>Zipcode:</strong>
-  <%= @theater.zipcode %>
-</p>
-
-<%= link_to 'Edit', edit_theater_path(@theater) %> |
-<%= link_to 'Back', theaters_path %>
+  <%= link_to 'Edit', edit_theater_path(@theater) %> |
+  <%= link_to 'Back', theaters_path %>
+<% end %>

@@ -26,6 +26,30 @@
       <li class="nav-item" style="margin-top:8px;">
         <a><%= link_to "Search" %> </a>
       </li>
+      <li class="nav-item" style="margin-top:8px; margin-left: 12px; color:white"> | </li>
+
+      <% if logged_in? %>
+        <!-- if a user is logged in -->
+        <li class="nav-item" style="margin-top:8px;">
+          <a><%= link_to "Log out", logout_path %> </a>
+        </li>
+        <!-- add admin label if admin -->
+        <% if admin? %>
+          <li class="nav-item" style="margin-top:8px;">
+            <a><%= link_to 'Admin', users_path %></a>
+          </li>
+        <% else %>
+          <li class="nav-item" style="margin-top:8px;">
+            <a><%= link_to 'Profile', user_path(session[:user_id]) %></a>
+          </li>
+        <% end %>
+      <% else %>
+        <!-- if no user is logged in -->
+        <li class="nav-item" style="margin-top:8px;">
+          <a><%= link_to "Log in / Sign up", login_path %> </a>
+        </li>
+      <% end %>
+
     </ul>
   </div>
 </nav>

@@ -2,5 +2,9 @@
 
 <%= render 'form', user: @user %>
 
-<%= link_to 'Show', @user %> |
-<%= link_to 'Back', users_path %>
+<!-- return to user_path if not admin, and users_path if admin -->
+<% if admin? %>
+  <%= link_to 'Back', users_path %>
+<% else %>
+  <%= link_to 'Back', user_path(session[:user_id]) %>
+<% end %>

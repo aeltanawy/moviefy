@@ -1,6 +1,10 @@
-<h1>Editing Theater</h1>
+<p id="notice"><%= notice %></p>
+<!-- only admin -->
+<% if admin? %>
+  <h1>Editing Theater</h1>
 
-<%= render 'form', theater: @theater %>
+  <%= render 'form', theater: @theater %>
 
-<%= link_to 'Show', @theater %> |
-<%= link_to 'Back', theaters_path %>
+  <%= link_to 'Show', @theater %> |
+  <%= link_to 'Back', theaters_path %>
+<% end %>

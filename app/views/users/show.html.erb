@@ -25,10 +25,18 @@
   <%= @user.email %>
 </p>
 
-<p>
-  <strong>Password digest:</strong>
-  <%= @user.password_digest %>
-</p>
+<!-- only for admin -->
+<% if admin? %>
+  <p>
+    <strong>Admin:</strong>
+    <%= @user.admin %>
+  </p>
+<% end %>
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
-<%= link_to 'Back', users_path %>
+<!-- return to root_path is not admin, and users_path if admin -->
+<% if admin? %>
+  <%= link_to 'Back', users_path %>
+<% else %>
+  <%= link_to 'Back', root_path %>
+<% end %>

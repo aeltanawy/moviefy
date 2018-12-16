@@ -58,7 +58,7 @@
 
   <div class="field">
     <%= form.label :movie_id %>
-    <%= form.text_field :movie_id %>
+    <%= form.collection_select(:movie_id, @movies, :id, :movie_title) %>
   </div>
 
   <div class="actions">

@@ -32,7 +32,7 @@
           <td><%= crew.actor_3_name %></td>
           <td><%= crew.actor_3_facebook_likes %></td>
           <td><%= crew.cast_total_facebook_likes %></td>
-          <td><%= crew.movie %></td>
+          <td><%= crew.movie.movie_title %></td>
           <td><%= link_to 'Show', crew %></td>
           <td><%= link_to 'Edit', edit_crew_path(crew) %></td>
           <td><%= link_to 'Destroy', crew, method: :delete, data: { confirm: 'Are you sure?' } %></td>
@@ -42,6 +42,6 @@
   </table>
 
   <br>
-
+  <%= link_to 'Back', admin_dashboard_path %> |
   <%= link_to 'New Crew', new_crew_path %>
 <% end %>

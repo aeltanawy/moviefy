@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'admin_dashboard/index', as: 'admin_dashboard'
   get 'sessions/new'
   get 'session/new'
   resources :users

@@ -15,10 +15,12 @@ class CrewsController < ApplicationController
   # GET /crews/new
   def new
     @crew = Crew.new
+    @movies = Movie.all
   end
 
   # GET /crews/1/edit
   def edit
+    @movies = Movie.all
   end
 
   # POST /crews

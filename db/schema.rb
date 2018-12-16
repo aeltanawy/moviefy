@@ -10,7 +10,30 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_12_13_112307) do
+ActiveRecord::Schema.define(version: 2018_12_15_095056) do
+
+  create_table "billing_addresses", force: :cascade do |t|
+    t.string "street"
+    t.string "city"
+    t.string "state"
+    t.integer "zipcode"
+    t.integer "credit_card_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["credit_card_id"], name: "index_billing_addresses_on_credit_card_id"
+  end
+
+  create_table "credit_cards", force: :cascade do |t|
+    t.string "name_on_card"
+    t.integer "card_num"
+    t.integer "security_code"
+    t.integer "user_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "exp_month"
+    t.integer "exp_year"
+    t.index ["user_id"], name: "index_credit_cards_on_user_id"
+  end
 
   create_table "crews", force: :cascade do |t|
     t.string "director_name"
@@ -49,6 +72,20 @@ ActiveRecord::Schema.define(version: 2018_12_13_112307) do
     t.integer "movie_fb_likes"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "purchasings", force: :cascade do |t|
+    t.integer "num_of_tickets"
+    t.integer "movie_id"
+    t.integer "theater_id"
+    t.integer "user_id"
+    t.integer "credit_card_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["credit_card_id"], name: "index_purchasings_on_credit_card_id"
+    t.index ["movie_id"], name: "index_purchasings_on_movie_id"
+    t.index ["theater_id"], name: "index_purchasings_on_theater_id"
+    t.index ["user_id"], name: "index_purchasings_on_user_id"
   end
 
   create_table "theaters", force: :cascade do |t|

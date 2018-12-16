@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name on card:</strong>
+  <%= @credit_card.name_on_card %>
+</p>
+
+<p>
+  <strong>Card num:</strong>
+  <%= @credit_card.card_num %>
+</p>
+
+<p>
+  <strong>Exp date:</strong>
+  <%= @credit_card.exp_month %>/<%= @credit_card.exp_year %>
+</p>
+
+<p>
+  <strong>Security code:</strong>
+  <%= @credit_card.security_code %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @credit_card.user %>
+</p>
+
+<%= link_to 'Edit', edit_credit_card_path(@credit_card) %> |
+<%= link_to 'Back', credit_cards_path %>

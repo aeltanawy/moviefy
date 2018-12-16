@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Num of tickets:</strong>
+  <%= @purchasing.num_of_tickets %>
+</p>
+
+<p>
+  <strong>Movie:</strong>
+  <%= @purchasing.movie %>
+</p>
+
+<p>
+  <strong>Theater:</strong>
+  <%= @purchasing.theater %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @purchasing.user %>
+</p>
+
+<p>
+  <strong>Credit card:</strong>
+  <%= @purchasing.credit_card %>
+</p>
+
+<%= link_to 'Edit', edit_purchasing_path(@purchasing) %> |
+<%= link_to 'Back', purchasings_path %>

@@ -1,0 +1,15 @@
+<h1>Purchase Movie Ticket</h1><br>
+
+<%= render '/credit_cards/form', credit_card: @credit_card %>
+<hr>
+<%= render '/billing_addresses/form', billing_address: @billing_address %>
+<hr>
+<%= render 'form', purchasing: @purchasing %>
+<br>
+
+<form class='form-inline' action="/purchasings/new">
+  <input type='hidden'>
+  <button id='ticket type='submit'>Purchase Ticket</button>
+</form><br>
+
+<%= link_to 'Back', root_path %>

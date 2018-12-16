@@ -13,7 +13,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 # Create an admin user to User model
-admin=User.new({ first_name: "Admin", last_name: "User", dob: 2018-12-15, gender: 'F', email: 'admin@gmail.com', password: 'password', password_confirmation: 'password'})
+admin=User.new({ first_name: "Admin", last_name: "User", dob: '2018-12-15', gender: 'F', email: 'admin@gmail.com', password: 'password', password_confirmation: 'password'})
 
 admin.toggle!(:admin)
 

@@ -15,8 +15,10 @@
       <% if logged_in? %>
         <form class='purchase' action="/purchasings/new" method="get">
           <input type='hidden' name='movie_id' value='<%= @movie.id %>'>
-          <button class='purchase' type='submit'>Purchase Movie Ticked</button>
+          <button class='purchase' type='submit'>Purchase Movie Ticket</button>
         </form>
+      <% else %>
+        <p style="margin-top: 8px;">Login to purchase a ticket! </p>
       <% end %>
     </div>
 

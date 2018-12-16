@@ -22,14 +22,18 @@
    width: auto;
  }
 
- .navbar-header, .nav-link, .nav-item a{
+ .navbar-header, .nav-link, .nav-item, .navbar a{
    padding: 8px;
    border-radius: 4px;
    color: white;
    text-decoration: none;
  }
 
- a:hover {
+ .nav-item a:hover {
+   background-color: rgb(40, 41, 39);
+ }
+
+ .navbar a:hover {
    background-color: rgb(40, 41, 39);
  }
 

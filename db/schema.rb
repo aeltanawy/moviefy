@@ -26,12 +26,12 @@ ActiveRecord::Schema.define(version: 2018_12_16_051122) do
   create_table "credit_cards", force: :cascade do |t|
     t.string "name_on_card"
     t.integer "card_num"
+    t.integer "exp_month"
+    t.integer "exp_year"
     t.integer "security_code"
     t.integer "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "exp_month"
-    t.integer "exp_year"
     t.index ["user_id"], name: "index_credit_cards_on_user_id"
   end
 

@@ -4,7 +4,7 @@
 
   <h1>Purchasings</h1>
 
-  <table>
+  <table class="table table-striped table-hover">
     <thead>
       <tr>
         <th>Num of tickets</th>
@@ -33,7 +33,7 @@
   </table>
 
   <br>
-
+  <%= link_to 'Back', admin_dashboard_path %> |
   <%= link_to 'New Purchasing', new_purchasing_path %>
 
 <% end %>

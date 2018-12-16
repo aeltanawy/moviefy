@@ -1,10 +1,12 @@
 class MoviesController < ApplicationController
   before_action :set_movie, only: [:show, :edit, :update, :destroy]
+  rescue_from ActiveRecord::RecordNotFound, with: :redirect_if_not_found
 
   # GET /movies
   # GET /movies.json
   def index
-    @movies = Movie.all
+    #@movies = Movie.all
+    @movies = Movie.search(params[:filter_title], params[:filter_genre], params[:filter_key])
   end
 
   # GET /movies/1
@@ -69,6 +71,6 @@ class MoviesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def movie_params
-      params.require(:movie).permit(:movie_title, :num_critic_for_reviews, :duration, :gross, :genres, :movie_imdb_link, :num_voted_users, :facenumber_in_poster, :plot_keywords, :num_user_for_reviews, :language, :country, :content_rating, :budget, :title_year, :imdb_score, :aspect_ratio, :movie_fb_likes)
+      params.require(:movie).permit(:movie_title, :num_critic_for_reviews, :duration, :gross, :genres, :movie_imdb_link, :num_voted_users, :facenumber_in_poster, :plot_keywords, :num_user_for_reviews, :language, :country, :content_rating, :budget, :title_year, :imdb_score, :aspect_ratio, :movie_fb_likes, :filter_title, :filter_genre, :filter_key)
     end
 end

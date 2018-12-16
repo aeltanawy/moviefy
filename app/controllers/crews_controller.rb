@@ -1,10 +1,12 @@
 class CrewsController < ApplicationController
   before_action :set_crew, only: [:show, :edit, :update, :destroy]
+  rescue_from ActiveRecord::RecordNotFound, with: :redirect_if_not_found
 
   # GET /crews
   # GET /crews.json
   def index
-    @crews = Crew.all
+    #@crews = Crew.all
+    @crews = Crew.search(params[:filter_dir], params[:filter_actor], params[:filter_movie])
   end
 
   # GET /crews/1

@@ -1,5 +1,6 @@
 class PurchasingsController < ApplicationController
   before_action :set_purchasing, only: [:show, :edit, :update, :destroy]
+  rescue_from ActiveRecord::RecordNotFound, with: :redirect_if_not_found
 
   # GET /purchasings
   # GET /purchasings.json

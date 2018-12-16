@@ -4,4 +4,11 @@ class ApplicationController < ActionController::Base
   include ApplicationHelper
   include SessionsHelper
   include PurchasingsHelper
+
+  # In case RecordNotFound
+  def redirect_if_not_found
+    logger.error "Attempt to access non-existent #{request.controller_class} '#{params[:id]}'."
+    flash[:notice] = "Please use the search instead."
+    redirect_to(root_path)
+  end
 end

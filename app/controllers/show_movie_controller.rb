@@ -1,5 +1,6 @@
 class ShowMovieController < ApplicationController
   include ShowMovieHelper
+  rescue_from ActiveRecord::RecordNotFound, with: :redirect_if_not_found
 
   def show_movie
     if params[:movie_id]

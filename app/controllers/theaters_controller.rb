@@ -1,10 +1,12 @@
 class TheatersController < ApplicationController
   before_action :set_theater, only: [:show, :edit, :update, :destroy]
+  rescue_from ActiveRecord::RecordNotFound, with: :redirect_if_not_found
 
   # GET /theaters
   # GET /theaters.json
   def index
-    @theaters = Theater.all
+    #@theaters = Theater.all
+    @theaters = Theater.search(params[:filter_state], params[:filter_city], params[:filter_zipcode])
   end
 
   # GET /theaters/1

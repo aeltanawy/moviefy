@@ -24,11 +24,8 @@ Rails.application.routes.draw do
 
   # Search routes
   get '/search/movie', to: 'search#movie', as: 'search_movie'
-  post '/search/movie', to: 'movies#index'
   get '/search/crew', to: 'search#crew', as: 'search_crew'
-  post '/search/crew', to: 'crews#index'
   get '/search/theater', to: 'search#theater', as: 'search_theater'
-  post '/search/theater', to: 'theaterss#index'
 
   # Route for movie info after thumbnail button click
   get '/show_movie/:id', to: 'show_movie#show_movie', as: 'show_movie'

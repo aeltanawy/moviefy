@@ -1,6 +1,7 @@
 class TheaterMapController < ApplicationController
   skip_before_action :logged_in?
-  
+  rescue_from ActiveRecord::RecordNotFound, with: :redirect_if_not_found
+
   def map
     @theaters = Theater.all
     @markers = []

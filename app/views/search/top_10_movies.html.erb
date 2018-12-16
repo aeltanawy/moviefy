@@ -1,0 +1,30 @@
+<br><br>
+<div id="container" style="width:100%; height:500px;">
+  <script type="text/javascript">
+    $(function () {
+      var myChart = Highcharts.chart('container', {
+        chart: {
+          type: 'column'
+        },
+        title: {
+          text: 'Top 10 Movies'
+        },
+        xAxis: {
+          title: {
+            text: 'Movie Title'
+          },
+          categories: <%= raw @top_10_title %>
+        },
+        yAxis: {
+          title: {
+            text: 'imdb score'
+          },
+        },
+        series: [{
+          name: 'imdb_score',
+          data: <%= raw @top_10_score %>
+        }]
+      });
+    });
+  </script>
+</div>

@@ -6,8 +6,7 @@ RSpec.describe "purchasings/edit", type: :view do
       :num_of_tickets => 1,
       :movie => nil,
       :theater => nil,
-      :user => nil,
-      :credit_card => nil
+      :user => nil
     ))
   end
 
@@ -24,7 +23,6 @@ RSpec.describe "purchasings/edit", type: :view do
 
       assert_select "input[name=?]", "purchasing[user_id]"
 
-      assert_select "input[name=?]", "purchasing[credit_card_id]"
     end
   end
 end

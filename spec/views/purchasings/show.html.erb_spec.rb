@@ -7,7 +7,6 @@ RSpec.describe "purchasings/show", type: :view do
       :movie => nil,
       :theater => nil,
       :user => nil,
-      :credit_card => nil
     ))
   end
 

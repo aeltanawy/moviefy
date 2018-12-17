@@ -7,15 +7,13 @@ RSpec.describe "purchasings/index", type: :view do
         :num_of_tickets => 2,
         :movie => nil,
         :theater => nil,
-        :user => nil,
-        :credit_card => nil
+        :user => nil
       ),
       Purchasing.create!(
         :num_of_tickets => 2,
         :movie => nil,
         :theater => nil,
-        :user => nil,
-        :credit_card => nil
+        :user => nil
       )
     ])
   end
@@ -23,7 +21,6 @@ RSpec.describe "purchasings/index", type: :view do
   it "renders a list of purchasings" do
     render
     assert_select "tr>td", :text => 2.to_s, :count => 2
-    assert_select "tr>td", :text => nil.to_s, :count => 2
     assert_select "tr>td", :text => nil.to_s, :count => 2
     assert_select "tr>td", :text => nil.to_s, :count => 2
     assert_select "tr>td", :text => nil.to_s, :count => 2

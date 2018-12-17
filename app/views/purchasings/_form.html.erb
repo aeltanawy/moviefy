@@ -11,26 +11,96 @@
     </div>
   <% end %>
 
+  <h3>Credit Card</h3>
   <div class="field">
-    <%= form.label 'Number of Tickets' %>
-    <%= form.number_field :num_of_tickets %>
+    <%= form.label :name_on_card %>
+    <%= form.text_field :name_on_card %>
   </div>
 
   <div class="field">
+    <%= form.label 'Card Number' %>
+    <%= form.number_field :card_num %>
+  </div>
+
+  <div class="field">
+    <%= form.label 'Expiration Date' %>
+    <%= form.select :exp_month, 1..12, :include_blank => true %>
+    <%= form.select :exp_year, Date.today.year..10.years.from_now.year, :include_blank => true %>
+  </div>
+
+  <div class="field">
+    <%= form.label :security_code %>
+    <%= form.number_field :security_code %>
+  </div>
+
+  <hr>
+
+  <h3>Billing Address</h3>
+  <div class="field">
+    <%= form.label 'Street Address' %>
+    <%= form.text_field :street %>
+  </div>
+
+  <div class="field">
+    <%= form.label :city %>
+    <%= form.text_field :city %>
+  </div>
+
+  <div class="field">
+    <%= form.label :state %>
+    <%= form.text_field :state %>
+  </div>
+
+  <div class="field">
+    <%= form.label :zipcode %>
+    <%= form.number_field :zipcode %>
+  </div>
+
+  <hr>
+
+  <h3>Ticket</h3>
+  <div class="field">
+    <%= form.label 'Number of Tickets' %>
+    <%= form.number_field :num_of_tickets, :id => 'num_of_tickets', :onchange => 'myFunction()' %>
+    <%= form.label "One ticket is $12, your Total is:" %>
+    <b><%= form.label '$0' , :id => 'total'%></b>
+    <%= form.hidden_field :total, :id => 'total-2' %>
+  </div>
+
+  <!-- to calculate the total number of tickets-->
+  <script>
+  function myFunction() {
+      var x = document.getElementById('num_of_tickets').value;
+      var total = x * 12;
+      document.getElementById("total").innerHTML = '$' + total;
+      document.getElementById("total-2").value = total;
+  }
+  </script>
+
+  <div class="field">
     <%= form.label 'Movie:' %>
-    <% if admin? && !params[:movie_id] %>
-      <%= form.collection_select(:movie_id, @movies, :id, :movie_title) %>
+    <% if !params[:movie_id] %>
+      <%= form.collection_select(:movie_id, @movies, :id, :movie_title, :include_blank => true) %>
     <% else %>
       <% movie = Movie.find(params[:movie_id]) %>
-      <%= form.label movie.movie_title %>
+      <% puts 'hi'%>
+      <%puts movie.movie_title%>
+      <% movie_title = movie.movie_title %>
+      <%= form.label movie_title %>
+      <%= form.hidden_field :movie_id, :value => params[:movie_id] %>
     <% end %>
   </div>
 
   <div class="field">
     <%= form.label 'Theater' %>
-<!--    <!%= form.collection_select(:theater_id, @theaters.select('DISTINCT state'), :id, :state, {:include_blank => "Select State"}) %>
-    <!%= form.collection_select(:theater_id, @theaters.where("id = ?", form.object.theater_id), :id, :zipcode, {:include_blank => "Select Zipcode"}) %> -->
-    <%= select_tag "theater[]", options_for_select(@theaters.collect{|attr| [" #{attr.state},  #{attr.zipcode}, #{attr.theater_name}", attr.id]}), {:include_blank => "State, Zipcode, Theater name"} %>
+    <%= form.collection_select(:theater_id, Theater.all.map{|a| ["#{a.state}, #{a.city}, #{a.zipcode}, #{a.theater_name}", a.id]}, :second, :first) %>
+
+  </div>
+
+  <%= form.hidden_field :user_id, :value => session[:user_id] %>
+  <br>
+  <div class="actions">
+    <%= form.submit %>
   </div>
 
 <% end %>

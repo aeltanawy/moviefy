@@ -11,6 +11,8 @@ class UsersController < ApplicationController
   # GET /users/1
   # GET /users/1.json
   def show
+    current_user = User.find(session[:user_id])
+    @user_purchasings = Purchasing.where(:user_id => current_user)
   end
 
   # GET /users/new

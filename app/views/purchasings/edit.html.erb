@@ -3,4 +3,8 @@
 <%= render 'form', purchasing: @purchasing %>
 
 <%= link_to 'Show', @purchasing %> |
-<%= link_to 'Back', purchasings_path %>
+<% if admin? %>
+  <%= link_to 'Back', purchasings_path %>
+<% else %>
+  <%= link_to 'Back', root_path %>
+<% end %>

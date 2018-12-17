@@ -1,6 +1,5 @@
 class PurchasingsController < ApplicationController
   before_action :set_purchasing, only: [:show, :edit, :update, :destroy]
-  rescue_from ActiveRecord::RecordNotFound, with: :redirect_if_not_found
 
   # GET /purchasings
   # GET /purchasings.json
@@ -17,18 +16,20 @@ class PurchasingsController < ApplicationController
   def new
     @purchasing = Purchasing.new
     @theaters = Theater.all
-    @billing_address = BillingAddress.new
-    @credit_card = CreditCard.new
     @movies = Movie.all
   end
 
   # GET /purchasings/1/edit
   def edit
+    @movies = Movie.all
+    @theaters = Theater.all
   end
 
   # POST /purchasings
   # POST /purchasings.json
   def create
+    @movies = Movie.all
+    @theaters = Theater.all
     @purchasing = Purchasing.new(purchasing_params)
 
     respond_to do |format|
@@ -69,13 +70,11 @@ class PurchasingsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_purchasing
-      if user_admin?
-        @purchasing = Purchasing.find(params[:id])
-      end
+      @purchasing = Purchasing.find(params[:id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def purchasing_params
-      params.require(:purchasing).permit(:num_of_tickets, :movie_id, :theater_id, :user_id, :credit_card_id)
+      params.require(:purchasing).permit(:num_of_tickets, :movie_id, :theater_id, :user_id, :name_on_card, :card_num, :exp_month, :exp_year, :security_code, :street, :city, :state, :zipcode, :total)
     end
 end

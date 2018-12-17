@@ -1,21 +1,17 @@
 Rails.application.routes.draw do
-  get 'admin_dashboard/index', as: 'admin_dashboard'
-  get 'sessions/new'
-  get 'session/new'
-  resources :users
-  resources :billing_addresses
-  resources :credit_cards
-  resources :purchasings
-  resources :theaters
   # Databases
   resources :crews
   resources :movies
+  resources :users
+  resources :purchasings
+  resources :theaters
 
   # Get routes
   get '/theater_map/map', to: 'theater_map#map', as: 'theater_map'
   get '/show_movie/show_movie'
-  get '/purchasings/index'
-  post '/purchasings/new'
+  get 'admin_dashboard/index', as: 'admin_dashboard'
+  get 'sessions/new'
+  get 'session/new'
 
   # Users routes
   get '/login', to: 'sessions#new'

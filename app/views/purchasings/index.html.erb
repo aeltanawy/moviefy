@@ -7,11 +7,15 @@
   <table class="table table-striped table-hover">
     <thead>
       <tr>
-        <th>Num of tickets</th>
+        <th>User Name</th>
+        <th>Number of tickets</th>
+        <th>Total in $</th>
         <th>Movie</th>
-        <th>Theater</th>
-        <th>User</th>
-        <th>Credit card</th>
+        <th>Theater Name</th>
+        <th>Theater Zipcode</th>
+        <th>Theater City</th>
+        <th>Theater State</th>
+        <th>Member since</th>
         <th colspan="3"></th>
       </tr>
     </thead>
@@ -19,11 +23,15 @@
     <tbody>
       <% @purchasings.each do |purchasing| %>
         <tr>
+          <td><%= purchasing.user.first_name %> <%= purchasing.user.last_name %></td>
           <td><%= purchasing.num_of_tickets %></td>
-          <td><%= purchasing.movie %></td>
-          <td><%= purchasing.theater %></td>
-          <td><%= purchasing.user %></td>
-          <td><%= purchasing.credit_card %></td>
+          <td><%= purchasing.total %></td>
+          <td><%= purchasing.movie.movie_title %></td>
+          <td><%= purchasing.theater.theater_name %></td>
+          <td><%= purchasing.theater.zipcode %></td>
+          <td><%= purchasing.theater.city%></td>
+          <td><%= purchasing.theater.state %></td>
+          <td><%= purchasing.user.created_at %></td>
           <td><%= link_to 'Show', purchasing %></td>
           <td><%= link_to 'Edit', edit_purchasing_path(purchasing) %></td>
           <td><%= link_to 'Destroy', purchasing, method: :delete, data: { confirm: 'Are you sure?' } %></td>

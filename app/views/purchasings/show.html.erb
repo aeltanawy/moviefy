@@ -1,29 +1,54 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Num of tickets:</strong>
+  <strong>User Name:</strong>
+  <%= @purchasing.user.first_name %> <%= @purchasing.user.last_name %>
+</p>
+
+<p>
+  <strong>Number of tickets:</strong>
   <%= @purchasing.num_of_tickets %>
 </p>
 
 <p>
+  <strong><th>Total in $:</strong>
+  <%= @purchasing.total %>
+</p>
+
+<p>
   <strong>Movie:</strong>
-  <%= @purchasing.movie %>
+  <%= @purchasing.movie.movie_title %>
 </p>
 
 <p>
-  <strong>Theater:</strong>
-  <%= @purchasing.theater %>
+  <strong>Theater Name:</strong>
+  <%= @purchasing.theater.theater_name %>
 </p>
 
 <p>
-  <strong>User:</strong>
-  <%= @purchasing.user %>
+  <strong>Theater Zipcode:</strong>
+  <%= @purchasing.theater.zipcode %>
 </p>
 
 <p>
-  <strong>Credit card:</strong>
-  <%= @purchasing.credit_card %>
+  <strong>Theater City:</strong>
+  <%= @purchasing.theater.city %>
+</p>
+
+<p>
+  <strong>Theater State:</strong>
+  <%= @purchasing.theater.state %>
+</p>
+
+<p>
+  <strong>Member Since:</strong>
+  <%= @purchasing.user.created_at %>
 </p>
 
 <%= link_to 'Edit', edit_purchasing_path(@purchasing) %> |
-<%= link_to 'Back', purchasings_path %>
+
+<% if admin? %>
+  <%= link_to 'Back', purchasings_path %>
+<% else %>
+  <%= link_to 'Back', root_path %>
+<% end %>

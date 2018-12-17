@@ -8,7 +8,7 @@ class ApplicationController < ActionController::Base
   # In case RecordNotFound
   def redirect_if_not_found
     logger.error "Attempt to access non-existent #{request.controller_class} '#{params[:id]}'."
-    flash[:notice] = "Please use the search instead."
+    flash[:notice] = "The page you are trying to request doesn't exist."
     redirect_to(root_path)
   end
 end

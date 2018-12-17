@@ -5,9 +5,9 @@ RSpec.describe "users/new", type: :view do
     assign(:user, User.new(
       :first_name => "MyString",
       :last_name => "MyString",
-      :gender => "MyString",
+      :gender => "F",
       :email => "MyString",
-      :password_digest => "MyString"
+      :password => "MyString"
     ))
   end
 
